@@ -12,7 +12,7 @@
     --ink: #1a1510;
     --warm: #c8a96e;
     --rust: #b84c2b;
-    --muted: #7a6f62;
+    --muted: #5a5249;
     --card-bg: #ffffff;
     --border: #e0d8cc;
     --ff-head: 'Playfair Display', Georgia, serif;
@@ -60,7 +60,7 @@ a {
     font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--warm);
+    color: var(--rust);
     margin-bottom: 0.75rem;
 }
 
@@ -487,7 +487,7 @@ section {
 
 .hobby-card p {
     font-size: 0.9rem;
-    color: rgba(245, 240, 232, 0.75);
+    color: var(--muted);
     font-weight: 300;
     line-height: 1.7;
 }
