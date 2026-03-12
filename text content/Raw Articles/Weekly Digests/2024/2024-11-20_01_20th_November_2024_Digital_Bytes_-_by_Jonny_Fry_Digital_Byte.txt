@@ -1,0 +1,5 @@
+ISSUE: 20th-november-2024-digital-bytes
+URL: https://digitalbytes.substack.com/p/20th-november-2024-digital-bytes
+TITLE: The impact of stablecoins on banks' balance sheets in the EU
+
+stablecoins, which are tied to stable assets such as fiat currencies, are transforming the financial landscape by providing quicker and more affordable payment options whilst minimising volatility. Stablecoins present challenges to conventional liquidity management and regulatory capital standards, especially when compared to CBDCs and traditional banking frameworks. European banks are required to hold additional capital for deposits placed at the central bank - which impacts a banks’ balance sheets in a way that is not the case in other jurisdictions. This could result in EU bank-issued stablecoins’ collateral being riskier, i.e. not as stable.

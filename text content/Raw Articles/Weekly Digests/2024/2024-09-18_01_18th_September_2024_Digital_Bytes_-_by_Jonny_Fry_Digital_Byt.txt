@@ -1,0 +1,5 @@
+ISSUE: 18th-september-2024-digital-bytes
+URL: https://digitalbytes.substack.com/p/18th-september-2024-digital-bytes
+TITLE: The collateral for stablecoins: does it matter?
+
+collateral is fundamental to the stability and reliability of stablecoins, which are often pegged to fiat currencies. This article covers various collateral types (fiat-backed, crypto-backed, and commodity-backed) and their impact on market confidence. Regulatory initiatives such as Project Pyxtrial are highlighted, focusing on ensuring that stablecoins are adequately collateralised to maintain their value. The content also examines the associated risks, regulatory challenges and market dynamics, emphasising the importance of transparency and trust in sustaining stablecoins' stability within the rapidly evolving digital finance landscape.

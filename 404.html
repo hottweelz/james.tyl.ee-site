@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Page Not Found | James Tylee</title>
+    <meta name="description" content="Page not found. Return to James Tylee's portfolio, writing, or book page." />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="https://james.tyl.ee/404.html" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="404 - Page Not Found" />
+    <meta property="og:description" content="The page you're looking for doesn't exist." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://james.tyl.ee/404.html" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .error-container {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .error-code {
+            font-family: 'Playfair Display', serif;
+            font-size: 6rem;
+            font-weight: 900;
+            color: var(--rust);
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+
+        .error-heading {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 1rem;
+        }
+
+        .error-message {
+            font-size: 1.1rem;
+            color: var(--muted);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .error-nav {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .error-nav a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--rust);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .error-nav a:hover {
+            background: #a03b21;
+        }
+
+        .error-nav a:focus-visible {
+            outline: 3px solid var(--rust);
+            outline-offset: 2px;
+        }
+
+        .error-suggestions {
+            background: #f5f0e8;
+            padding: 2rem;
+            border-left: 4px solid var(--warm);
+            margin: 3rem 0;
+            text-align: left;
+        }
+
+        .error-suggestions h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: var(--ink);
+        }
+
+        .error-suggestions ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .error-suggestions li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e0d9d0;
+        }
+
+        .error-suggestions li:last-child {
+            border-bottom: none;
+        }
+
+        .error-suggestions a {
+            color: var(--rust);
+            text-decoration: underline;
+        }
+
+        .error-suggestions a:hover {
+            color: #a03b21;
+        }
+
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 4rem;
+            }
+
+            .error-heading {
+                font-size: 1.8rem;
+            }
+
+            .error-nav {
+                flex-direction: column;
+            }
+
+            .error-nav a {
+                width: 100%;
+                text-align: center;
+            }
+
+            .error-suggestions {
+                margin: 2rem 0;
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Privacy Policy Popup -->
+    <div id="privacy-popup" class="privacy-popup hidden">
+        <div class="privacy-popup-content">
+            <button id="privacy-close" class="privacy-popup-close" aria-label="Close privacy popup">×</button>
+            <h3>Privacy & Cookies</h3>
+            <p>We use Google Analytics and other tools to understand how you use this site. By continuing, you agree to
+                our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a> and cookie usage.</p>
+            <div class="privacy-popup-buttons">
+                <button id="privacy-accept" class="privacy-btn-accept">Accept</button>
+                <a href="/privacy-policy.html" target="_blank" class="privacy-btn-learn">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!------------ Header ------------>
+    <header id="top">
+        <nav class="nav-inner" aria-label="Primary navigation">
+            <a href="/" class="nav-logo">James <span>Tylee</span></a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links" role="list">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/writing.html">Writing</a></li>
+                <li><a href="/book.html">Book</a></li>
+                <li><a href="/#hobbies">Deep Thoughts</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-heading">Page Not Found</h1>
+        <p class="error-message">
+            The page you're looking for doesn't exist. It might have been moved or deleted.
+        </p>
+
+        <div class="error-nav">
+            <a href="/">
+                <i class="fas fa-home" aria-hidden="true"></i> Back to Home
+            </a>
+            <a href="/writing.html">
+                <i class="fas fa-pen-fancy" aria-hidden="true"></i> Read My Writing
+            </a>
+            <a href="/book.html">
+                <i class="fas fa-book" aria-hidden="true"></i> The Book
+            </a>
+        </div>
+
+        <div class="error-suggestions">
+            <h3>Where to go next:</h3>
+            <ul>
+                <li><a href="/">Home</a> — Main portfolio page with about, hobbies, and contact</li>
+                <li><a href="/writing.html">Writing</a> — 200+ articles, podcasts, and GitHub contributions</li>
+                <li><a href="/book.html">Book</a> — Learn about The Digital Assets Revolution</li>
+                <li><a href="/privacy-policy.html">Privacy Policy</a> — Data and GDPR compliance information</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Designed &amp; built by <span>James Tylee</span> · 2026</p>
+        <p class="footer-links"><a href="/writing.html">Writing</a> · <a href="/book.html">Book</a> · <a
+                href="/privacy-policy.html">Privacy Policy</a> · <a href="/">Back to Home</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+ISSUE: 4th-january-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/4th-january-2023-digital-bytes
+TITLE: ‘Permacrisis’
+
+the Collins Dictionary word of the year 2022
+
+This ought to be of no surprise, given all that has happened in 2022, that ' permacrisis ' - “ a word describing an extended period of instability and insecurity” - has been chosen as the Collins Dictionary's ‘word of the year’. Just as the world was recovering from the ravages of COVID-19 and mountains of debt incurred, Russia’s invasion of Ukraine has added to the turmoil in the equity, debt and commodity markets during 2022. As for cryptocurrencies, ‘permacrisis’ seems to be a particularly apt way to describe 2022 for the many crypto investors who have seen the market capitalisation of cryptos fall from $3trillion to under $1trillion in this last year.
+
+Predictions for 2023
+
+·      inflation is not going to retreat quickly
+
+The financial excess of the last 14 years cannot be hastily unwound and there is still far too much excess cash pushing up prices. Commodity prices have fuelled inflationary pressure so forcing up interest rates and destroying the value of debt instruments (so called low risk investments). A note of caution from the biggest asset manager in the world, Blackrock, which has $9.57trillion undermanagement, is: "We think long-term government bonds won’t play their traditional role as portfolio diversifiers due to persistent inflation. "
+
+·      will some ICOs, 4 to 5 years later, finally deliver?
+
+Chromway is a Swedish firm which conducted an ICO in 2018 and has been in discussions with various jurisdictions about digitising its land registry. Whilst its capitalisation has fallen from a high in November 2021 (in excess of $700million) to a current low of $40million, it is still trading and now is exploring projects in the metaverse. ‘Adapt and survive’ springs to mind….
+
+·      legal clarity for digital assets
+
+The Law Commission for England and Wales is due to make an announcement in 2023 regarding its thoughts on digital assets from a legal standpoint and its legal rights/obligations. This will then allow UK regulators to focus on those digital assets that truly fall within their remit, as opposed to the FCA defining cryptos as being: “ … cryptographically secured digital representations of value or contractual rights that use some type of distributed ledger technology (DLT) and can be transferred, stored or traded electronically ”. Expect to see other jurisdictions offer greater legal clarity and then regulatory clarity on a wide range of digital assets. The Luna Capital, Three Arrows, FTX, etc, fiascos have only served to remind us of the need for stronger governance in the crypto sector, and 2023 is likely to see much greater regulatory scrutiny.
+
+·      the rise of CBDCs and stablecoins
+
+Coingeko lists 90 stablecoins (or what ought to be called ‘pegged’ coins) with a current value of almost $140billion. As we see more equities, debt instruments and funds being digitised, there will be greater need for digital methods of payment. Expect to see a number of jurisdictions issue their own CBDCs too. If this is what the FED’s recent finding on analysing a whole sale  focused CBDC  - project ‘Cedar’ - :“….wholesale cross-border digital currency transactions supported by blockchain technology can deliver fast and safe payments ”. It is hard to believe that the FED coin will be upon us soon.
+
+·      private companies become easier to invest in
+
+Private companies, like public ones, often need capital to expand and thrive. Globally, there are 213million private companies compared to 41million listed companies . Look out for more blockchain-powered platforms to help make the buying and selling of private companies much easier.
+
+·      self-custody
+
+As the user experience (UX) becomes easier and more people wish to have greater control and access to their digital data (whether that be assets, currencies or health data) we will see a rise in digital wallets and self-custody. It has already been estimated that in the crypto sector alone, the market size for digital wallets will grow by 24.4% p.a. to 2030 .
+
+·      increase in digital funds
+
+We have already seen a number of global asset managers such as KKR, Abrdn, AllianceBernstein, JP Morgan and Franklin Templeton announce they are to offer digitised share classes, and expect to see many more. After all, currently most funds trade once a day with the dealing price calculated by the asset management firm. A digital share class enables investors to trade a fund 9 to 5, or potentially 24/7, with the price that investors can buy or sell being calculated by independent marker makers (not dissimilar to Exchange Traded Funds). Which version (the existing once a day pricing or 24/7 dealing in a fund) offers investors more choice and treats customers fairly? It is understandable why compliance, as opposed to sales departments, could well drive digitised fund expansion going forward.
+
+·      metaverse to gain traction
+
+Accenture has announced it is to hire 150,000 people by using the metaverse. This is a sign of how the metaverse is increasingly being used by all types of businesses and not simply the on-line gaming community.
+
+·      smart contracts
+
+The ability to automate transactions and use smart contracts is expected to grow, with some predicting a growth of over 25% in 2023 compared to 2022. According to Glassnode, demand for blockchain developers remains strong with salaries typically starting at over $100,000 p.a .
+
+·      ‘Loads of money’ being replaced by greater inclusion?
+
+The Harry Enfield character who sang about ‘ Loads of Money ’ represented what some saw as the ugly face of capitalism. Although there has existed the attitude of those "who die with most toys, win" , greed or profit at any cost is being replaced with a more collaborative, inclusive style of business. There are many examples of firms using open-source software, greater interest in sustainability, and even new business structures such as Decentralised Autonomous Organisations DAOs, where being inclusive and building communities is a corporate objective alongside making a profit.
+
+·      will NFTs become the next ICO-type scandal?
+
+There is a current loophole in the US whereby firms can potentially issue NFTs to raise capital, a concern is that could such a away of raising capital be seen as a security by the SEC. In the same way that many organisations that issued ICOs, the regulators may target the issuers of some NFTs.
+
+·      greater DLT/blockchain adoption
+
+There has been considerable time and money invested in DLT/blockchain projects in the last few years and in 2023 we are likely to see these being rolled out and begin to gain widespread adoption. According to Market Watch, the “ Blockchain Distributed Ledger Technology (DLT) market size was valued at $1480.33 million in 2021 and is expected to expand at a CAGR of 27.48% reaching $6353.19 million by 2027.” Look out for companies such as PEXA - “ 80% of conveyancing completions in Australia” are now run via the PEXA blockchain-powered platform which has handled over 11million real estate transactions in Australia to date.
+
+·      digital nomads: their numbers are set to grow
+
+Jurisdictions issuing digital visas will continue to rise as countries compete to attract typically mobile young, bright and ‘digital-savvy’ people. Click here for a selection of different jurisdictions granting digital visas. Our article - ‘ The rise of digital nomads and decentralised autonomous organisations (DAOs ) ’ - revealed that digital nomads could be generating over $5.5trillion of income tax globally by 2030. Hence, the interest in enticing these mobile, digital-savvy high earners.
+
+·      SWIFT - a platform to expand digital assets
+
+SWIFT has announced : “ Central Bank Digital Currencies (CBDCs) and tokenised assets - digital tokens that represent ownership of all or part of a stock, bond, or even illiquid assets - could potentially be integrated into the financial ecosystem without causing disruption .” Given that SWI

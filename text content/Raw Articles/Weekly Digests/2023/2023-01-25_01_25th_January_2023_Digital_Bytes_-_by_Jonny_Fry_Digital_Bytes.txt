@@ -1,0 +1,5 @@
+ISSUE: 25th-january-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/25th-january-2023-digital-bytes
+TITLE: How blockchains are being used by asset managers
+
+undoubtedly, the fund industry has seen massive growth in terms of the number of funds and total assets under management in the last decade. Despite this, fund houses still rely on long, complex chains of distribution which make building investor relationships and controlling distribution costs difficult. However, asset managers are beginning to understand the transformative potential of both distributive ledger technology (DLT) and blockchain technology which enable digitisation/tokenisation of funds, shares, debt instruments, etc, whereby reducing inefficiencies in fund distribution and offering greater transparency for regulators.

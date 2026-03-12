@@ -1,0 +1,5 @@
+ISSUE: 12th-april-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/12th-april-2023-digital-bytes
+TITLE: Web 3.0: a new pathway for health?
+
+the way in which we use the internet has evolved to where Web 3 is able to empower individuals and give them the ability to control their data (especially healthcare information) as opposed to big tech firms controlling and monetising their information. Blockchain is the technology behind Web 3.0 and is being used to secure patient data whereby bringing transparency and trust to the healthcare sector. The use of Web 3.0 in healthcare offers the promise of changing not only the way patient data is stored and handled but also how healthcare is administered as medics begin to use a range of new immersive Web 3.0 technologies.

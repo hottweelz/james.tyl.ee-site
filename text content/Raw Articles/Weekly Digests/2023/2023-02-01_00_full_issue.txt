@@ -1,0 +1,39 @@
+ISSUE: 1st-february-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/1st-february-2023-digital-bytes
+TITLE: Artificial intelligence (AI) and blockchain
+
+the use of AI in our daily lives is increasing, an example being ChatGPT which has caught the headlines recently. It is the first time many have been able to interact with AI in a very easy manner, allowing simple tasks to be performed such as writing/prompting messages, adverts and even business plans. Could Microsoft’s recent investment in ChatGPT’s creator of Windows finally enable Microsoft to challenge Google’s dominance of internet search engines?
+
+Full Article Here
+
+Will we finally see digital ID take place? - the concept of digital IDs has been around for years as people look to replace paper passports, driving licences and ID cards. The dangers of centralised databases for digital IDs are a fear often lauded, and hence the interest in blockchain technology as data is held in a decentralised manner and cryptographically secure.
+
+Full Article Here
+
+Decentralised assets - gold, silver, Bitcoin: has their time come? - assets that cannot be issued by central banks and which are created out of thin air have long been heralded as a potential way to avoid the ravages of inflation. The results are mixed but, given record purchases of gold and rising geopolitical uncertainty, if investors begin to buy such assets then surely they will then do so digitally? After all, decentralised assets can be traded 24/7 and transported securely on a USB stick.
+
+Full Article Here
+
+Blockchain: IoT’s best friend? - Internet of Things (IoT) are increasingly being used in many devices. The key benefit brought to IoT by blockchain technology is the removal of IoT’s greatest vulnerability: its centralisation. There is a growing demand for provenance and for devices to ‘talk to each other’ e.g., vehicles, IoT devices and blockchains offer some novel solutions to both these challenges.
+
+Full Article Here
+
+1
+
+Share
+
+Discussion about this post
+
+Comments Restacks
+
+Top Latest Discussions
+
+No posts
+
+© 2026 Jonny Fry · Privacy ∙ Terms ∙ Collection notice
+
+Start your Substack Get the app
+
+Substack is the home for great culture
+
+This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts

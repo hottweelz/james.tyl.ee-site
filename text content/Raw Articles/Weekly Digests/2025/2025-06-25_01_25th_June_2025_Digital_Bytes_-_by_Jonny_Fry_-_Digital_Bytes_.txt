@@ -1,0 +1,5 @@
+ISSUE: 25th-june-2025-digital-bytes
+URL: https://digitalbytes.substack.com/p/25th-june-2025-digital-bytes
+TITLE: The ethics of algorithmic stablecoins
+
+algorithmic stablecoins seek to maintain a fiat currency peg (such as the US$) through automated code and smart contracts rather than collateral or custodial backing. But whilst they offer the promise of decentralisation and capital efficiency, they also raise serious ethical and practical concerns. These include the fundamental shift in trust from traditional institutions to algorithmic code - which is still written and maintained by humans and thus vulnerable to errors, exploitation and unintended consequences. Despite claims of transparency, the complexity of these systems often creates a gap between visibility and actual user understanding and this “transparency paradox” undermines informed consent and responsible participation.

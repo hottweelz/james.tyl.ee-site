@@ -1,0 +1,5 @@
+ISSUE: 26th-july-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/26th-july-2023-digital-bytes
+TITLE: Blockchain and intellectual property
+
+as blockchains are increasingly being used in commerce, no doubt they will be utilised for how IP is handled. The advent of AI generative assets such as music, art, prose and the growth of the metaverse will all create additional challenges where the use of blockchain may be a useful support. In the meantime, the use of blockchains can potentially facilitate the way IP is stored, handled and tracked for infringements on an on-going basis.

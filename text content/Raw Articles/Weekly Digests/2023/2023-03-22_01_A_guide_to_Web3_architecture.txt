@@ -1,0 +1,5 @@
+ISSUE: 22nd-march-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/22nd-march-2023-digital-bytes
+TITLE: A guide to Web3 architecture
+
+there is an increasing consensus that blockchains should be built modularly.

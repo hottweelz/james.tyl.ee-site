@@ -1,0 +1,56 @@
+---
+title: "Tokenising real-world assets beyond real estate"
+author: "Jonny Fry"
+date: ""
+source: "https://digitalbytes.substack.com/p/tokenising-real-world-assets-beyond"
+---
+
+# Tokenising real-world assets beyond real estate
+
+*By Jonny Fry | *
+
+At its core, [tokenisation](https://www.datacamp.com/blog/what-is-tokenization) is the process of converting the rights to a tangible or intangible asset into a digital token that exists on a blockchain. This token represents a fractional ownership or share of the underlying asset, allowing investors to buy, sell or trade portions of high-value assets without needing direct access to them. Blockchain technology ensures the security and transparency of the entire process, providing an immutable ledger that tracks all transactions.
+
+[](https://substackcdn.com/image/fetch/$s_!_ywp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2dc6cc4-a93c-42c6-8ace-9f9ae4492347_1394x784.png)
+
+Source: TeamBlockchain
+
+**Key features of tokenisation:**
+
+> · **fractional ownership** \- tokenisation allows high-value assets to be broken down into smaller, more affordable units, enabling a broader audience to participate in markets that were previously out of reach.
+> 
+> · **liquidity** \- tokenised assets are easily traded, providing enhanced liquidity in traditionally illiquid markets such as real estate or fine art.
+> 
+> · **transparency** \- blockchain’s tamper-proof nature ensures that all transactions are recorded and easily verifiable, fostering trust and reducing the potential for fraud.
+> 
+> · **global access** \- since digital tokens are traded on blockchain platforms, investors from anywhere in the world can access and invest in tokenised assets, expanding market reach and opportunities.
+
+Whilst real estate has been the most prominent example of tokenisation, a variety of other asset classes are also beginning to be digitised. Below are several examples of how tokenisation is expanding beyond property:
+
+> · **fine art and collectibles** \- the art market has traditionally been exclusive, with high-value pieces often out of reach for all but the wealthiest investors. Tokenisation is making art ownership more accessible by enabling fractional ownership of valuable works, allowing individuals to invest in iconic pieces such as Picasso paintings through digital shares. Tokenisation of art opens up new investment opportunities for a wider range of people, increases market liquidity and creates additional revenue streams for artists and galleries. Platforms such as [Maecenas](https://www.maecenas.co/) and [Artory](https://www.artory.com/) are leading the way in art tokenisation, allowing investors to buy shares in famous works of art.
+> 
+> · **commodities** \- tokenising commodities such as gold, oil and agricultural products can streamline trading and create more efficient markets. Each token is tied to a specific quantity of the commodity, making it easier for investors to trade these assets in fractional amounts. Tokenisation enhances liquidity, simplifies the trading process and introduces greater transparency in commodity markets. Projects such as [Paxos Gold (PAXG)](https://paxos.com/paxgold/) and [Tether Gold (XAUT) ](https://gold.tether.to/)are enabling the fractional ownership and easy trading of gold, providing a modern way for investors to access precious metals.
+> 
+> · **intellectual property (IP)** \- [intellectual property (IP)](https://www.investopedia.com/terms/i/intellectualproperty.asp) is another promising area for tokenisation. By converting patents, copyrights and trademarks into digital tokens, creators and innovators can monetise their IP more effectively. Tokenising IP simplifies licensing agreements, facilitates access to funding for creators and creates new revenue opportunities for the holders of IP rights. Platforms, such as [IPwe, are utilising blockchain to tokenise patents](https://ipwe.com/lander) whereby making the process of IP transactions more transparent and accessible.
+> 
+> · **carbon credits and environmental assets** -**** tokenisation is also being used in the environmental sector, particularly in carbon credit markets. By digitising carbon credits, blockchain technology can increase the transparency and efficiency of carbon offset trading, creating a more accessible market for organisations and individuals interested in supporting sustainability efforts. Tokenisation of environmental assets encourages participation in green initiatives, improves market transparency and facilitates easier access to carbon offset trading. Initiatives such as [Toucan Protocol](https://toucan.earth/) and [KlimaDAO](https://www.klimadao.finance/) are utilising tokenisation to enhance the efficiency of carbon credit markets and drive more engagement with climate change solutions.
+> 
+> · **luxury goods** \- high-end luxury items, such as watches, jewellery and rare wines, are becoming candidates for tokenisation, allowing individuals to invest in these high-value assets by purchasing fractional shares of ownership. Tokenisation of luxury goods enhances market liquidity, increases access to high-end items and reduces the risk of fraud by providing a clear, blockchain-based provenance history. Companies such as [LUXARITY](https://www.martagrossi.com/luxarity) are exploring how blockchain and tokenisation can reshape the luxury goods market by making it more accessible to a broader audience.
+> 
+> · **music and entertainment** \- tokenisation is also transforming the entertainment and music industries by enabling artists to tokenise their royalties or concert tickets, allowing fans to invest directly in the careers of their favourite creators. Musicians can generate new revenue streams, whilst fans have the opportunity to invest in and engage with their favourite artists in new ways. Platforms such as [Royal](https://royal.io/) and [Audius](https://audius.co/) are at the forefront of tokenising music royalties and enabling decentralised streaming, creating a more transparent and direct relationship between artists and fans.
+
+The rise of tokenisation offers several key advantages that make it an appealing option for investors and businesses alike. Tokenisation breaks down barriers to entry, allowing people with limited financial resources to invest in high-value assets through fractional ownership. A good example of this is the number of [private equity/debt funds which are tokenising](https://www.ledgerinsights.com/hamilton-lane-tokenized-funds-to-reach-retail-investors-via-republic-deal/) their funds and allowing smaller investors access to funds which, historically, they were unable to invest in. By removing intermediaries, tokenisation streamlines the buying, selling and trading process, reducing costs and increasing transaction speeds. Traditionally, buying a property involves multiple layers of intermediaries’ lawyers, brokers and estate agents - each adding time, complexity and cost. Settlement can take weeks. Conversely, tokenised real estate can be bought and sold in almost real time using platforms such as [Propy](https://propy.com/home/) and [RealT](https://realt.co/). Tokenisation transforms traditionally illiquid markets into more liquid ones, allowing assets to be traded on secondary markets with greater ease. Blockchains ensures that all transactions are securely recorded and easily verifiable, building investor trust and reducing the potential for fraud and digital tokens enable global trading, allowing anyone with internet access to invest in tokenised assets from anywhere in the world. However, despite the numerous advantages, tokenisation does face several challenges that could hinder its widespread adoption:
+
+> · **regulatory uncertainty** \- as tokenisation operates at the intersection of finance and technology, the regulatory landscape is still evolving. Clear guidelines are needed to establish how tokenised assets will be classified and governed.
+> 
+> · **technological integration** \- integrating tokenisation platforms into existing financial systems requires significant technical expertise and infrastructure investment.
+> 
+> · **market education** \- for tokenisation to succeed then investors, businesses and regulators must understand its potential benefits and risks, requiring educational initiatives to build trust and awareness.
+> 
+> · **liquidity concerns** \- whilst tokenisation theoretically increases liquidity, creating active and efficient secondary markets remains a challenge that needs to be addressed.
+> 
+> · **security risks** \- the security of tokenised assets is paramount. Ensuring the protection of assets from fraud and cyber threats is crucial to building investor confidence.
+
+Looking ahead, tokenisation is set to continue transforming global markets. Several trends and developments are shaping the future of this technology. Financial institutions are increasingly exploring tokenisation to enhance operational efficiency and generate new revenue streams. We are seeing more partnerships between traditional financial players and blockchain innovators, indicating institutional acceptance of tokenised assets. For example, [three of Japan’s biggest banks](https://www.ledgerinsights.com/japanese-banking-giant-smbc-plans-avalanche-stablecoin-report/) are creating three stablecoins and then using the SWIFT network to settle FX trades. Decentralised finance (DeFi) platforms are incorporating tokenised assets, enabling innovative investment products and further expanding access to tokenised markets. As the technology matures, we can expect the tokenisation of an even wider range of asset classes (from real estate to carbon credits) offering new investment opportunities and diversifying portfolios.**** Governments and regulators are working to establish frameworks that will balance innovation with investor protection, which will help pave the way for broader adoption of tokenisation in mainstream financial markets. Indeed recently, [UK Chancellor, Rachel Reeves](https://www.finextra.com/the-long-read/1342/what-uk-chancellor-rachel-reevess-us-cryptoasset-collaboration-means), announced the UK government is looking at how the UK can work closer with the US in relation to digital assets and stablecoins. Finally, ongoing improvements in blockchain technology, such as scalability and interoperability solutions, will overcome current limitations and further enhance the efficiency and appeal of tokenised markets.
+
+Without doubt, tokenisation is redefining ownership in the digital age, not simply of property but of everything from art and gold to music royalties and carbon credits. By converting rights into blockchain-based tokens, it challenges the gatekeeping of traditional finance, lowers barriers to investment and unlocks value in previously illiquid or overlooked assets. Yet this democratisation of wealth creation brings profound questions: who controls the rails of this new financial infrastructure? And will regulation keep up with innovation or choke it? Essentially, as everything becomes tradeable, from ideas to emissions, are we ultimately prepared for a world where _**value itself**_ is fluid, programmable and borderless?

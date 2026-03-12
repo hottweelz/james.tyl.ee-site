@@ -1,0 +1,5 @@
+ISSUE: 10th-may-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/10th-may-2023-digital-bytes
+TITLE: The impact of DeFi on traditional financial intermediaries
+
+decentralised finance (DeFi) is a term for an ecosystem that is focused on banking, insurance and asset management services which operate on blockchain-powered platforms and are not typically controlled by a single organisation. DeFi removes the need for intermediaries, banks, asset managers and other financial entities so that people can do business with each other (Peer2Peer) using smart contracts. Traditional financial institutions are being challenged by the advent of DeFi since it offers an alternative choice as to how people receive and handle their financial affairs.

@@ -1,0 +1,5 @@
+ISSUE: 6th-november-2024-digital-bytes
+URL: https://digitalbytes.substack.com/p/6th-november-2024-digital-bytes
+TITLE: Digital assets and AI: what happens when machines own crypto?
+
+this article explores the intersection of artificial intelligence (AI) and digital assets, highlighting how AI-driven technologies are reshaping financial markets. AI is transforming crypto trading through automation, predictive analytics and real-time decision-making and machines are increasingly involved in managing and trading digital assets, with examples such as AI bots trading cryptocurrencies autonomously. Yet, whilst this brings efficiency and innovation, it raises ethical and regulatory questions, particularly around accountability, transparency and the potential bias in AI decision-making.

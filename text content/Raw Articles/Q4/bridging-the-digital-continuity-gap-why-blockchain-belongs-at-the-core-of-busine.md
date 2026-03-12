@@ -1,0 +1,46 @@
+---
+title: "Bridging the digital continuity gap: why blockchain belongs at the core of business resilience"
+author: "Jonny Fry"
+date: ""
+source: "https://digitalbytes.substack.com/p/bridging-the-digital-continuity-gap"
+---
+
+# Bridging the digital continuity gap: why blockchain belongs at the core of business resilience
+
+*By Jonny Fry | *
+
+What if the next major disruption wasn’t a natural disaster or a cyber-attack, but the collapse of a digital ecosystem? For decades, business continuity plans have focused on physical and operational risks, fires, floods, pandemics or power outages. But as our economies digitise, an entirely new layer of vulnerability has emerged. Organisations today rely not just on data centers and supply chains, but on digital assets, decentralised networks, tokenised securities and algorithmic systems that operate beyond traditional control. While decentralisation introduces complexity, it also
+
+reduces a single point of failure. In a distributed system, the single node or entity holds control of critical data or processes meaning that, even if part of the network goes down, operations and records can continue elsewhere. This redundancy inherent to blockchain architectures is what makes decentralised blockchains a potential enable of continuity, rather than a risk to it.
+
+**Major global banks to create G7stablecoin**
+
+> [](https://substackcdn.com/image/fetch/$s_!i8v0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8726e999-4bf1-4d25-b312-08fa101929ae_1548x1146.png)
+> 
+> Source: [National File.com](https://nationalfile.com/g7-stablecoin-alliance-to-tokenize-500-trillion-us-capital-markets/)
+
+Traditional risk frameworks were built for tangible threats, earthquakes, fires or server outages. You could back up data, relocate teams and restore operations. But digital risks don’t always give that luxury. In the digital asset ecosystem, failure is systemic. A smart contract bug can freeze billions of dollars. An exchange collapse can vaporise liquidity overnight. A regulatory crackdown in one jurisdiction can ripple across global markets in minutes. We’ve seen this movie before: the 2022 [FTX collapse](https://www.theguardian.com/business/2024/mar/27/where-did-ftx-money-go) wiped out billions and shattered confidence across crypto markets. [Tornado Cash sanctions](https://home.treasury.gov/news/press-releases/jy0916) highlighted the geopolitical entanglement of code and compliance. [Solana’s multiple network outages](https://www.bitget.com/wiki/how-many-times-has-solana-gone-down) exposed the fragility of even the most promising protocols. The more interconnected our financial and operational systems become, the greater the amplification of
+
+these risks. A single point of failure in a decentralised ecosystem may seem paradoxical, but it’s real and it challenges the very definition of resilience. Traditional continuity strategies can’t simply be “digitised”. They must be reimagined for an era where trust, transparency and technology intersect. Despite its volatility, blockchain offers a unique architectural advantage: immutability and decentralisation, two traits that make it a natural ally for business continuity. At its core, blockchain provides a tamper-resistant, distributed ledger where data integrity is mathematically guaranteed. This structure can support continuity across sectors, including:
+
+> · **supply chains** \- blockchain ensures transparent, traceable movement of goods. If a supplier fails, alternative routes and provenance records remain visible and verifiable in real time.
+> 
+> · **finance** \- settlement finality and auditable transactions remove dependency on intermediaries that might falter in crises.
+> 
+> · **identity management** \- portable, cryptographically secured digital IDs protect individuals and institutions from single-platform compromise.
+> 
+> · **smart contracts** \- pre-programmed agreements can automate recovery actions, triggering insurance pay-outs, releasing escrowed funds or switching to secondary systems without manual intervention.
+
+In essence, blockchain can transform continuity from a reactive recovery model into a proactive design principle. Instead of relying on centralised oversight, resilience is built into the system itself, verified by consensus rather than trust. As blockchain becomes foundational to global finance and governance, organisations must align their continuity planning with emerging digital-asset regulations such as MiCA~~~~(EU), DORA and UK FCA frameworks. As we can see from the recent announcement from ten of the world’s biggest banks to create a stablecoin based on G7 economies, alliances using blockchain-powered solutions are being explored. Traditional standards like ISO 22301 still matter, but they now co-exist with a new digital continuity mandate. However, challenges remain, such as: “ _How do you ensure access to funds if an exchange shuts down?”_ ;_“Do you have backup custody arrangements or multi-signature wallets?”; “If a blockchain network halts, can your smart contracts execute on alternative rails?”;_ and,_“How do you maintain operational compliance when regulations evolve faster than code updates?”  
+  
+_
+
+Continuity planning must evolve from static documentation to dynamic architecture integrating technical fail-safes, jurisdictional redundancy and real-time monitoring. A robust plan for 2025 and beyond must blend traditional continuity frameworks with digital resilience planning. Business leaders must assume that digital assets are no longer speculative; they are core infrastructure. Losing access to them isn’t an IT issue: it’s an existential threat. However, even the most advanced blockchain-enabled continuity plans are only as strong as their last test. Regular simulations and drills remain the only way to ensure that technology, governance and people can move as one when disruption strikes. This is obvious but rarely heeded. Communications must be prepared ahead of time for a disaster scenario so that clients, shareholders and employees all know what is going on and the person communicating has the power to do so without delay. Continuity also depends on clarity who speaks, what is said and how quickly. Crisis communication plans should be built alongside technical recovery plans so that clients, regulators and teams hear one consistent message, delivered by someone empowered to act.
+
+Technology alone doesn’t build resilience people do. Yet too many organisations treat digital assets as niche, leaving knowledge gaps that magnify risk. The next phase of resilience requires a cultural
+
+shift. Every executive, employee and stakeholder must understand the fundamentals of digital asset management from wallet security and custody protocols to phishing defence and regulatory awareness. They must understand the need for business continuity. Just as cybersecurity training became standard a decade ago, digital asset literacy and continuity of operations must now be embedded in business culture. Employees should know not only _how_ to use blockchain tools but also _why_ they matter for continuity. And regulators are already forcing this adaptation. Europe’s MiCA framework mandates risk management and transparency for crypto providers. The US SEC continues to push [compliance for tokenised assets](https://www.reuters.com/business/finance/nasdaq-makes-push-launch-trading-tokenized-securities-2025-09-08/). The [UK FCA](https://www.fca.org.uk/news/blogs/operational-resilience-beyond-regulatory-raincoats) now demands operational resilience plans that explicitly account for digital dependencies. Leaders who ignore this educational imperative risk being left behind - or worse, caught unprepared when digital disruptions cascade through their operations. It is not a luxury to prepare - it is a requirement to survive.
+
+The next frontier of business resilience is hybrid a seamless integration of physical, digital and decentralised continuity. Using blockchain technology is not a silver bullet, but it is a blueprint for a more transparent, adaptive and verifiable future. By embedding its principles transparency, decentralisation and auditability into continuity planning, organisations can bridge the gap between prevention and preparedness. Decentralised blockchains removes the single point of failure;
+
+disruptions will always come, yet the organisations that thrive will be those that treat blockchains not as a speculative investment, but as a potential operational safeguard. The real issue is whether the blockchain technology is real and can be trusted to operate. And then there is the question of practicing - without practicing for a disruption and implementing your business continuity plan, the company is unlikely to survive! And communication is critical: elevate it as a leadership responsibility through the organisation and authorise the communicators to deal during a disaster. The head of the organisation must understand the importance of preparing for business continuity and lead the organisation into a survival mode.

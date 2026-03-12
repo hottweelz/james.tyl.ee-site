@@ -1,0 +1,5 @@
+ISSUE: 7th-may-2025-digital-bytes
+URL: https://digitalbytes.substack.com/p/7th-may-2025-digital-bytes
+TITLE: What are tokenised deposits and stablecoins? The future of digital payments explained
+
+digital payments are evolving rapidly beyond traditional methods, with tokenised deposits and stablecoins leading this transformation. Tokenised deposits blend conventional banking with blockchain, offering secure, regulated digital representations of bank money that improve efficiency whilst maintaining consumer protections. Stablecoins (potentially disruptive to banking models) face scalability challenges but promise faster, cheaper transactions. Banks are responding strategically by integrating these technologies rather than resisting them. Regulators are adapting to support responsible innovation, creating a hybrid financial system that combines traditional banking's stability with blockchain's efficiency. This collaborative evolution prioritises security, accessibility and innovation, whereby benefiting consumers, businesses and the broader financial ecosystem.

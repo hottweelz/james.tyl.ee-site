@@ -1,0 +1,47 @@
+---
+title: "Navigating the future of Web3 in Financial Services: opportunities and challenges ahead"
+description: "Written by Rita Martins, author of “Web3 in Financial Services”  Web3 is set to transform financial services, embedding finance into blockchain-based systems. Bitcoin's legal tender status and DAO governance structures exemplify this change. Emerging markets benefit from cheaper remittances and decentralised loans, while developed markets embrace crypto as a new asset class and explore tokenisation. The future depends on regulatory clarity, tech advancements and partnerships between traditional finance and Web3. Ignoring this shift risks falling behind."
+date: 2024-07-16
+source: https://digitalbytes.substack.com/p/navigating-the-future-of-web3-in
+year: 2024
+---
+
+# Navigating the future of Web3 in Financial Services: opportunities and challenges ahead
+
+Everyone has heard about “Web3”, but what does it actually mean? For some, it represents data ownership, while for others, it is seen as a rebrand by Venture Capitals (VCs) to inject new momentum into the Crypto space. Personally, I see Web3 as a broader ecosystem of companies leveraging blockchain technology to create innovative solutions, services and products, while trying to balance decentralisation, openness and ownership. In financial services, Web3 has the potential to be truly disruptive. Historically, new technologies and innovations have been implemented on top of legacy financial systems with money, assets and processes running on different rails. Web3 aims to disrupt finance at its core by replacing legacy systems with blockchain and embedding finance and money into these new rails. Interestingly, Web3 ecosystem is also breaking traditional social norms and beliefs. For example, Bitcoin is now legal tender in certain jurisdictions such as [El Salvador and Central African Republic ](https://rusi.org/explore-our-research/publications/commentary/too-fast-too-furious-cryptocurrency-legal-tender#:~:text=Currently%2C%20only%20a%20handful%20of,Central%20African%20Republic%20\(CAR\).)so can be used for day-to-day payments, disrupting our previous notion of money being issued by central banks. Projects run via DAOs (decentralised autonomous organisations) introduced new governance structures, further redefining how we think about organisational management.
+
+[](https://substackcdn.com/image/fetch/$s_!i1Xs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6747d312-7c16-4c19-8b17-08fe629fc479_204x294.png)
+
+However, despite its promise and achievements, many remain sceptical about this space. There’s a lingering perception that crypto and blockchains are run by bad actors with the news filled with hacks, fraud and dubious stories. This was one of the reasons why I decided to write the book, “Web3 in Financial Services”, to change the narrative and clearly explain the real use cases that are driving change in finance. The book serves as a primer for anyone curious about this space but unsure where to start. It covers the key use cases driving adoption, highlights the major players and discusses the changes needed for mainstream acceptance. To my surprise, the response to the book has been overwhelmingly positive, highlighting that, despite the scepticism, there is a significant curiosity and desire to understand this space. Many people outside the finance and tech worlds frequently ask, “ _What is blockchain_?” and “ _Why can I buy Bitcoin 24/7 but traditional stocks are only open during market hours_?” Such curiosity is not new. In 2022, a Coinbase ad presented during the [Super Bowl went viral](https://www.youtube.com/watch?v=eIUD_NE1BDo). The ad featured a QR code for the Coinbase website, and so many people scanned it simultaneously that it temporarily crashed the website.
+
+**What’s holding it back?**
+
+While there is a growing interest and curiosity in this space, the friction and learning curve associated with most Web3 applications continue to hinder widespread adoption. However, this is changing as more and more companies are now building simpler and user-friendly applications. A similar transformation occurred in Web2 with the introduction of the iPhone, which simplified apps, and Fintechs, which disrupted the banking experience. Besides user experience challenges, the lack of clear regulation has been holding back full adoption by traditional players. Regulated financial institutions are understandably hesitant to embrace innovation in an unregulated space often plagued by negative news like hacks and fraud. However, the landscape is changing. Regulation is becoming clearer, and the technology is better understood. Many leaders, both privately and publicly, have expressed that they are ready to move beyond experimentation and focus on scalable solutions. Finally, technological evolution is also a key factor. As Tyrone Lobban, Managing Director at J.P. Morgan and head of Blockchain & Onyx Digital Assets, noted in my book, “ _If we look back to the early days, those blockchains have changed even since 2015. Back then, it was primarily Bitcoin and Ethereum (Ethereum had recently been launched). Ethereum was a Proof-of-Work (PoW) chain and has now evolved into a Proof-of-Stake (PoS) chain.”_ This evolution is set to continue, driving further changes and advancements in the industry. So, what does the future hold for Web3 in Financial Services? The use cases and impact depend on the regulatory, social and economic environments.
+
+**Emerging markets**
+
+> · _Remittances_
+
+In emerging markets, Web3 solutions are already reducing costs and playing key economic roles. Take the Philippines, for example[. Here, a quarter of the population reports receiving remittances, representing 10% of the country’s GDP](https://www.gov.uk/research-for-development-outputs/the-impact-of-the-covid-19-pandemic-on-migrant-remittances-in-the-philippines#:~:text=middle%2Dincome%20countries.-,In%20the%20Philippines%2C%20remittances%20represent%20ten%20percent%20of%20GDP%2C%20and,of%20these%20important%20remittance%20flows.). However, traditional remittances are often slow, expensive, and inefficient.
+
+[Tranglo](https://www.tranglo.com/), a Fintech, offers a crypto-enabled solution for migrants sending remittances across Asia. This service leverages Ripple’s blockchain payment solution and XRP and is faster, more convenient and cost-effective than traditional methods.
+
+> · _Decentralised loans_
+
+Another fascinating example is [Goldfinch,](https://goldfinch.finance/) a decentralised credit platform aiming to borrowing more accessible to businesses in developing countries. In simple terms, Goldfinch enables businesses in emerging markets to access funding from global lenders while using (almost) anything as a collateral - via tokenisation.
+
+**Developed markets**
+
+In Europe, the UK and the US, the use cases and impact of Web3 may differ, but they are equally significant.
+
+> · _Crypto as a new asset class_
+
+The rise and fall in the value of cryptocurrencies like Bitcoin and Ethereum have for years attracted retail and institutional investors. The recent approvals of Bitcoin and Ethereum ETFs have further cemented cryptocurrencies as a new asset class. This shift is not just about trading; it’s about the broader acceptance and integration of digital assets into traditional financial systems.
+
+> · _Tokenisation_
+
+Almost all traditional institutions are exploring tokenisation use cases[. Larry Fink, chairman and CEO of BlackRock, recently stated](https://www.mckinsey.com/industries/financial-services/our-insights/from-ripples-to-waves-the-transformational-power-of-tokenizing-assets): “ _We believe the next step going forward will be the tokenization of financial assets, and that means every stock, every bond […] will be on one general ledger_.” Tokenisation will not only improve efficiency and transparency but also opens new opportunities for innovation.
+
+**The road ahead**
+
+[A recent McKinsey article, “From ripples to waves: The transformational power of tokenizing assets,”](https://www.mckinsey.com/industries/financial-services/our-insights/from-ripples-to-waves-the-transformational-power-of-tokenizing-assets) envisions that the industry is at a tipping point. The authors argue that “ _pioneers can capture oversized market share (especially in markets benefiting from economies of scale), enhance their own efficiency, set the agenda for formats and standards, and benefit from the reputational halo of embracing emerging innovation_.” Indeed, as regulatory frameworks solidify, the technology continues to evolve and traditional financial leaders are heavily investing in this space, we are now at a tipping point. Early movers and leaders stand to gain significant advantages. For leaders who may be hesitant to experiment at this stage, I strongly recommend prioritizing internal education for key staff. Given the rapid pace of technological advancement in this ecosystem, it is crucial for leaders to prepare their teams to seize opportunities as they emerge. Ignoring Web3 risks falling behind and missing out on valuable opportunities. Looking forward, collaboration and partnerships between traditional financial institutions and emerging Web3 players will likely define the next phase. Institutions that embrace these partnerships strategically can harness the combined strengths of both worlds, fostering innovation while ensuring compliance and stability.

@@ -1,0 +1,39 @@
+ISSUE: 14th-september-2022-digital-bytes
+URL: https://digitalbytes.substack.com/p/14th-september-2022-digital-bytes
+TITLE: How blockchain technology can support corporate ESG credentials
+
+due to its tamper-resistant nature, blockchain fits as an assurance of accuracy and transparency of data. This decentralised database of records is designed to facilitate raw data authentication problems. The technology acts as a light node to transfer the data of smart infrastructure or devices to the blockchain network, thus offering greater transparency whilst maintaining privacy of data. As mandatory corporate and sustainability reporting becomes more common, accurate and verified documentation to support transparency becomes essential. Therefore, to comply with ESG standards, blockchain technology could prove to be a valuable tool.
+
+Full Article Here
+
+Challenges of losing your digital assets - digital assets are valuable but need to be handled carefully. In many cases, once lost, they cannot be recovered or replaced (unlike other assets, such as if you lose the deeds to your house or your share certificates). The loss of cryptocurrencies and other digital assets powered by blockchain technology can equally be a real challenge when people die and have not left a password to their beneficiaries. Recovering lost, stolen or hacked blockchain-based assets may not be possible if the private key to retrieve them is nowhere to be found. It is therefore advisable to keep a copy of your password in a secure place, as well as ensuring the assets themselves are not easy to access.
+
+Full Article Here
+
+Smart contracts: their impact on business and your savings - smart contracts are changing the way in which business is being transacted, ushering in new, more competitive and efficient markets based on merit as opposed to global brand recognition. Smart contracts can be programmed to search out and select the most competitive returns on saving products as well as being used in many different industries, automating processes, and cutting costs as well as enabling smaller companies access to markets and consumers. So, how will smart contracts effect your company and/or your savings in the future?
+
+Full Article Here
+
+SSI vs SBTs vs Web5 - since Jack Dorsey’s announcement of Web5 straight after Vitalik Buterin’s introduction of the soulbound tokens (SBTs), the decentralised web has been buzzing and making waves in the mainstream media. Although these are two separate announcements, both have been essentially putting the decentralised digital identity technology - self-sovereign identity (SSI) - in the spotlight. This article compares SSI to SBT and argues that SSI has been repackaged as Web5.
+
+Full Article Here
+
+3
+
+Share
+
+Discussion about this post
+
+Comments Restacks
+
+Top Latest Discussions
+
+No posts
+
+© 2026 Jonny Fry · Privacy ∙ Terms ∙ Collection notice
+
+Start your Substack Get the app
+
+Substack is the home for great culture
+
+This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts

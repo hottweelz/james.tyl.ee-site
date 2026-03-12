@@ -1,0 +1,40 @@
+---
+title: "Crypto recovery in the UK: policing and private recovery mandates"
+author: "Jonny Fry"
+date: ""
+source: "https://digitalbytes.substack.com/p/crypto-recovery-in-the-uk-policing"
+---
+
+# Crypto recovery in the UK: policing and private recovery mandates
+
+*By Jonny Fry | *
+
+The crypto asset recovery landscape remains a paradox, both vital and embryonic, with police and recovery specialists focusing on different targets. It’s a field where the technical sophistication of digital crime has outpaced the systems designed to catch it. In the UK and beyond, a handful of genuine experts operate in a sea of noise, while opportunists hover, preying on victims desperate to reclaim what’s theirs. The result? A sceptical public, hesitant investors and a marketplace that still feels more “digital Wild West” than “regulated financial frontier”. Victims are usually targets via data leaks and pursued using personal contact details to arouse confidence that the fraudster is, in fact, legitimate. Much of the issue lies in recovery methods, with law enforcement mandated to help bring justice to bad actors and lawyers looking to chase funds.
+
+Let’s start with the obvious headache, _recovery room scams_. In these schemes, victims of theft are contacted by “recovery specialists” who promise to bring back lost crypto. Too often, these are the same bad actors who stole the funds in the first place, or their close associates buying and selling victim data across shady networks. With an estimated [84% of crypto thefts](https://www.chainalysis.com/blog/2024-pig-butchering-scam-revenue-grows-yoy/) linked to social engineering, it’s a reminder that the weakest link isn’t the blockchain - it’s human trust. Post-theft panic often drives victims onto Reddit, Discord, Telegram or WhatsApp, where a cry for help can unleash a flood of dubious “helpers”. A cruel irony: the digital communities built to connect crypto users are also fertile hunting grounds for scammers. Even more worrying are wrench attacks - according to [Merkle Science](https://www.merklescience.com/blog/offline-risks-in-an-online-world-inside-the-5-dollar-wrench-attack#:~:text=Criminal%20Profile,facilitate%20laundering%20the%20stolen%20funds.): “ _It wasn’t just the threat of violence - actual violence was used in 67% of incidents. In some attacks, force appeared to be part of the plan from the outset, with victims tied up, restrained or injured to prevent resistance. In others, violence escalated in the moment, triggered by a victim’s refusal to comply or attempt to fight back.”_
+
+**UK police seize $5billion of crypto**
+
+[](https://substackcdn.com/image/fetch/$s_!R-8b!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01fb126c-1067-4192-b361-a0d029cc89b3_799x793.png)
+
+Source: [X](https://x.com/yoyonofukuoka/status/1989529389797986496?s=20)
+
+**Law enforcement: overloaded but improving**
+
+In the UK, the official advice still begins with [Action Fraud](https://www.actionfraud.police.uk/) (the country’s national fraud agency), and the [UK government](https://www.gov.uk/government/news/new-powers-to-seize-cryptoassets-used-by-criminals-go-live#:~:text=Greater%20powers%20for%20the%20National,have%20come%20into%20force%20today.&text=Greater%20powers%20for%20the%20National%20Crime%20Agency%20\(NCA\)%20and%20police,have%20come%20into%20force%20today.) has passed legislation giving: “ _Greater powers for the National Crime Agency (NCA) and police to seize, freeze and destroy crypto assets used by criminals.”_ Yet, the scale of Action Fraud workload is staggering.... Against that backdrop, even cases with robust evidence - e.g., records supported by blockchain-powered full tracing reports and clear transaction trails - can languish while stolen assets move and morph across the crypto ecosystem. This can be frustrating for victims who feel law enforcement are failing to do their job. It is understood that issue is not that the agencies are unable to help, but that Action Fraud, the system which triages and reviews cases tends to recommend local forces pick up cases where there are identifiable suspects. Given online thefts are committed by pseudonymous parties or faked names, there’s little Action Fraud
+
+can see as tangible routes to pursue wrongdoers. It’s not that law enforcement cannot assist, it’s that their mandates differ to what victims expect- it’s about building a case against individuals, not chasing money. The silver lining? There are increasing examples of law enforcement being proactive, enhancing their mandates and using the powers afforded to them under updates to the Proceeds of Crime Act 2022, which came into force recently. Here, police can seek a crypto wallet freezing order in Magistrates Courts, usually on the basis those assets frozen are the traceable proceeds of those stolen. Freezes usually last around six months and victims, using lawyers or otherwise, can reclaim those assets by proving, on the balance of probabilities, that the assets frozen are the property of the victim. This is the police going after the funds, not prioritising the criminals.
+
+**Types of experts**
+
+The next trap is the proliferation of advisors. In many cases, fraudsters pose as recovery experts to re-scam the victims, offering tracing reports or legal services. In other instances, parties sometimes advertise “crypto recovery services” without the technical firepower or practical experience to deliver. Inexperienced advisors can waste precious time, and burn through recovery budgets, before victims find genuine help. The message is clear: due diligence matters. Victims should ask for references, tangible case studies and, critically, transparency on pricing. Big-brand blockchain analytics firms can charge small fortunes while subcontracting the real work, a “blue-chip” veneer for what is often just white-label forensics.
+
+**A turning tide**
+
+Still, there’s momentum building. The UK’s legal system has made big strides in handling crypto-related cases. Courts now routinely recognise cryptocurrencies as “property,” enabling freezing orders, disclosure warrants and injunctions designed for digital traces. As more investigators and lawyers specialise in this niche, recovery outcomes are improving. Skilled teams are increasingly adept at engaging with crypto-exchanges and service providers (even the notoriously reluctant ones) to identify, freeze and ultimately reclaim stolen assets and restitution methodologies. In some cases, recovery efforts now extend directly to token issuers, though intervention there still depends heavily on law enforcement involvement. The UK has become a leading jurisdiction for crypto asset recovery due to legal advancements and high-profile cases. Positive judgments in both criminal and civil cases continue to rise and success stories, such as the [£4.3 billion Bitcoin seizure](https://www.trmlabs.com/resources/blog/uk-court-convicts-crypto-launderer-in-historic-3-billion-pound-seizure) handled by UK authorities in 2024, shows progress.
+
+**The path forward**
+
+So, what’s next? Victims should always report crime to the police and Action Fraud. Action Fraud’s enhanced public-private co‑operation initiative aims to streamline crypto recovery efforts across the UK, which is a welcomed upgrade. There’s optimism, but also realism - no public service, however advanced, can single-handedly tackle the sheer scale of the problem. Success will come from true collaboration: credible investigators, forward-thinking lawyers, responsive exchanges and resourced law enforcement working in sync. If the industry can normalise effective crypto asset recovery, the calculus changes and crypto theft become less profitable, and criminals move on.
+
+In short, the art of the possible is no longer theoretical. It’s just beginning to take shape.

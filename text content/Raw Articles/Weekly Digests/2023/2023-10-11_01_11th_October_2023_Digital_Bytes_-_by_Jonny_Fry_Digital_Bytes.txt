@@ -1,0 +1,5 @@
+ISSUE: 11th-october-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/11th-october-2023-digital-bytes
+TITLE: The role of blockchain in modernizing stock markets
+
+blockchain technology has the potential to revolutionize stock market settlements by improving efficiency, reducing costs, enhancing security and increasing transparency. It eliminates intermediaries, enables faster transactions and automates processes through smart contracts. However, transitioning to blockchain faces regulatory and interoperability challenges; collaboration is key to unlocking blockchain's potential, and regulated digital exchanges are already listing new digital assets.

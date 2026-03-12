@@ -1,0 +1,5 @@
+ISSUE: 20th-december-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/20th-december-2023-digital-bytes
+TITLE: Navigating blockchain interoperability: challenges, data insights and solutions
+
+despite recent successes such as Wormhole's funding, blockchain interoperability faces critical challenges.

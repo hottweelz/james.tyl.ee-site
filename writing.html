@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writing & Publications | James Tylee</title>
+    <meta name="description"
+        content="Explore 200+ fintech & blockchain articles on Digital Bytes Substack, podcast episodes, and GitHub contributions. Insights on crypto, DeFi, and digital assets." />
+    <link rel="canonical" href="https://james.tyl.ee/writing.html" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta property="og:title" content="Writing & Publications | James Tylee" />
+    <meta property="og:description"
+        content="200+ original articles on fintech, blockchain, crypto, and digital assets. Digital Bytes Substack, podcasts, and open-source contributions." />
+    <meta property="og:url" content="https://james.tyl.ee/writing.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://james.tyl.ee/images/sig_beige-1200.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://james.tyl.ee/images/sig_beige-1200.png" />
+    <meta name="twitter:title" content="Writing & Publications | James Tylee" />
+    <meta name="twitter:description"
+        content="Fintech & blockchain expert. 200+ published articles on digital assets, DeFi, crypto regulation, and more." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .writing-page {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 2rem;
+            color: var(--ink);
+        }
+
+        .writing-page h1 {
+            font-family: var(--ff-head);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--ink);
+        }
+
+        .writing-page .page-intro {
+            font-size: 1.1rem;
+            color: #5a5249;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .writing-section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background-color: rgba(200, 169, 110, 0.08);
+            border-left: 4px solid var(--warm);
+            border-radius: 4px;
+        }
+
+        .writing-section h2 {
+            font-family: var(--ff-head);
+            font-size: 1.8rem;
+            color: var(--ink);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .writing-section h2 i {
+            color: var(--warm);
+            font-size: 1.6rem;
+        }
+
+        .section-meta {
+            font-size: 0.95rem;
+            color: var(--rust);
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .writing-section p {
+            color: #5a5249;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--warm);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .cta-button:hover {
+            background-color: var(--rust);
+        }
+
+        .cta-button:focus-visible {
+            outline: 3px solid var(--rust);
+            outline-offset: 2px;
+        }
+
+        .cta-button i {
+            margin-right: 0.5rem;
+        }
+
+        .episode-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+        }
+
+        .episode-item {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background-color: white;
+            border-left: 3px solid var(--rust);
+            border-radius: 2px;
+        }
+
+        .episode-title {
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 0.25rem;
+            font-size: 1.05rem;
+        }
+
+        .episode-date {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-top: 0.5rem;
+        }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .topic-tag {
+            background-color: rgba(184, 76, 43, 0.1);
+            color: var(--rust);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .writing-page a {
+            color: var(--warm);
+            text-decoration: underline;
+            transition: color 0.2s ease;
+        }
+
+        .writing-page a.cta-button {
+            color: white;
+            text-decoration: none;
+            underline: none;
+        }
+
+        .writing-page a.cta-button:hover {
+            color: white;
+        }
+
+        .writing-page a:hover {
+            color: var(--rust);
+        }
+
+        .writing-page a:focus-visible {
+            outline: 3px solid var(--rust);
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .writing-page {
+                padding: 1.5rem;
+                margin: 2rem auto;
+            }
+
+            .writing-page h1 {
+                font-size: 2rem;
+            }
+
+            .writing-section {
+                padding: 1.5rem;
+            }
+
+            .writing-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .topics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            .cta-button,
+            .writing-page a,
+            .episode-item {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Privacy Policy Popup -->
+    <div id="privacy-popup" class="privacy-popup hidden">
+        <div class="privacy-popup-content">
+            <button id="privacy-close" class="privacy-popup-close" aria-label="Close privacy popup">×</button>
+            <h3>Privacy & Cookies</h3>
+            <p>We use Google Analytics and other tools to understand how you use this site. By continuing, you agree to
+                our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a> and cookie usage.</p>
+            <div class="privacy-popup-buttons">
+                <button id="privacy-accept" class="privacy-btn-accept">Accept</button>
+                <a href="/privacy-policy.html" target="_blank" class="privacy-btn-learn">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!------------ Header ------------>
+    <header id="top">
+        <nav class="nav-inner" aria-label="Primary navigation">
+            <a href="/" class="nav-logo">James <span>Tylee</span></a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links" role="list">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/writing.html" aria-current="page">Writing</a></li>
+                <li><a href="/book.html">Book</a></li>
+                <li><a href="/#hobbies">Deep Thoughts</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="writing-page">
+        <a href="/" class="back-link">← Back to Home</a>
+
+        <h1>Writing & Publications</h1>
+        <p class="page-intro">
+            Discover my contributions across fintech, blockchain, digital assets, and cryptocurrency. From in-depth
+            analysis to thought leadership, explore 200+ articles, 70+ podcast episodes, and open-source contributions
+            spanning five years of original research and insights.
+        </p>
+
+        <!-- Digital Bytes Section -->
+        <article class="writing-section">
+            <h2><i class="fas fa-newsletter"></i> Digital Bytes Substack</h2>
+            <p class="section-meta">200+ Original Articles | Weekly & Deep Dives</p>
+            <p>
+                I contribute extensively to <strong>Digital Bytes</strong>, a leading publication on fintech innovation,
+                blockchain technology, digital assets, and cryptocurrency regulation. My articles explore emerging
+                trends
+                in tokenization, stablecoins, DeFi, CBDCs, and the intersection of AI and blockchain.
+            </p>
+            <p>
+                <strong>Topics covered:</strong> Strategic crypto reserves, stablecoin evolution, asset tokenization,
+                Web3 infrastructure, blockchain scalability, regulatory frameworks, digital money, smart contracts, and
+                geopolitical implications of decentralized finance.
+            </p>
+            <a href="https://digitalbytes.substack.com" class="cta-button" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+                Read on Substack
+                <small style="display: block; font-size: 0.85rem; margin-top: 0.25rem;">(200+ articles)</small>
+            </a>
+        </article>
+
+        <!-- Podcast Section -->
+        <article class="writing-section">
+            <h2><i class="fas fa-podcast"></i> Podcast Episodes</h2>
+            <p class="section-meta">70+ Episodes | Host & Contributing Host</p>
+            <p>
+                I host and contribute to the <strong>Digital Bytes Podcast</strong>, a weekly show exploring fintech
+                innovation, blockchain technology, and digital asset trends. Episodes feature deep dives into emerging
+                technologies, interviews with industry leaders, and analysis of regulatory developments shaping the
+                crypto landscape.
+            </p>
+            <p><strong>Featured episodes include:</strong></p>
+            <ul class="episode-list">
+                <li class="episode-item">
+                    <div class="episode-title">Can AI Finally Kill Bitcoin? The Collision of Two Digital Titans</div>
+                    <div class="episode-date">Exploring AI's impact on cryptocurrency and blockchain security</div>
+                </li>
+                <li class="episode-item">
+                    <div class="episode-title">The Case for a US Strategic Crypto Reserve</div>
+                    <div class="episode-date">Strategic analysis: Bitcoin as national asset and economic hedge</div>
+                </li>
+                <li class="episode-item">
+                    <div class="episode-title">Stablecoins Revolutionizing Property Investment</div>
+                    <div class="episode-date">Real asset tokenization and blockchain in real estate</div>
+                </li>
+                <li class="episode-item">
+                    <div class="episode-title">Interoperability Between AI and Blockchain Technology</div>
+                    <div class="episode-date">July 2025 | How AI and blockchain converge and create value</div>
+                </li>
+                <li class="episode-item">
+                    <div class="episode-title">Lost Keys, Lost Fortunes: The Inheritance Crisis of Digital Assets</div>
+                    <div class="episode-date">Estate planning challenges in the age of crypto and self-custody</div>
+                </li>
+            </ul>
+            <a href="https://open.spotify.com/show/0wxqlnCDOlk5NXiEtaJYKr" class="cta-button" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-spotify" style="color: #1DB954;"></i>
+                Listen on Spotify
+                <small style="display: block; font-size: 0.85rem; margin-top: 0.25rem;">(70+ episodes)</small>
+            </a>
+        </article>
+
+        <!-- GitHub Section -->
+        <article class="writing-section">
+            <h2><i class="fas fa-code-branch"></i> Open Source & GitHub</h2>
+            <p class="section-meta">Team Blockchain | Contributing Developer</p>
+            <p>
+                I contribute to <strong>Team Blockchain</strong>, an open-source initiative focused on blockchain
+                education, developer resources, and decentralized technology infrastructure. Our work spans protocol
+                documentation, security research, and community-driven blockchain development.
+            </p>
+            <p>
+                Contributions include technical writing, project documentation, blockchain standards research, and
+                collaboration with developers building the next generation of decentralized systems.
+            </p>
+            <a href="https://github.com/hottweelz/TeamBlockchain" class="cta-button" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+                Explore on GitHub
+            </a>
+        </article>
+
+        <!-- Topics Overview -->
+        <section style="margin-top: 3rem;">
+            <h2 style="font-family: var(--ff-head); font-size: 1.8rem; color: var(--ink); margin-bottom: 1.5rem;">
+                Key Topics Across My Work
+            </h2>
+            <div class="topics-grid">
+                <div class="topic-tag">Bitcoin & Ethereum</div>
+                <div class="topic-tag">DeFi & Smart Contracts</div>
+                <div class="topic-tag">Tokenization</div>
+                <div class="topic-tag">Stablecoins & CBDCs</div>
+                <div class="topic-tag">Web3 & Blockchain</div>
+                <div class="topic-tag">Crypto Regulation</div>
+                <div class="topic-tag">Digital Assets</div>
+                <div class="topic-tag">Asset Management</div>
+                <div class="topic-tag">Payment Systems</div>
+                <div class="topic-tag">Financial Technology</div>
+                <div class="topic-tag">AI & Blockchain</div>
+                <div class="topic-tag">Geopolitics of Crypto</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed &amp; built by <span>James Tylee</span> · 2026</p>
+        <p class="footer-links"><a href="/">Home</a> · <a href="/writing.html" aria-current="page">Writing</a> · <a
+                href="/privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Writing & Publications",
+        "description": "Explore 200+ fintech & blockchain articles, podcasts, and open-source contributions by James Tylee.",
+        "url": "https://james.tyl.ee/writing.html",
+        "datePublished": "2026-03-12",
+        "dateModified": "2026-03-12",
+        "author": {
+            "@type": "Person",
+            "name": "James Tylee",
+            "url": "https://james.tyl.ee"
+        },
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "James Tylee",
+            "url": "https://james.tyl.ee"
+        },
+        "mainEntity": [
+            {
+                "@type": "CreativeWork",
+                "name": "Digital Bytes Substack",
+                "description": "200+ articles on fintech, blockchain, digital assets, and cryptocurrency",
+                "url": "https://digitalbytes.substack.com",
+                "creator": {
+                    "@type": "Person",
+                    "name": "James Tylee"
+                }
+            },
+            {
+                "@type": "Podcast",
+                "name": "Digital Bytes Podcast",
+                "description": "Weekly episodes exploring fintech innovation and blockchain technology",
+                "url": "https://open.spotify.com/show/0wxqlnCDOlk5NXiEtaJYKr",
+                "creator": {
+                    "@type": "Person",
+                    "name": "James Tylee"
+                }
+            },
+            {
+                "@type": "SoftwareSourceCode",
+                "name": "Team Blockchain",
+                "description": "Open-source blockchain education and developer resources",
+                "url": "https://github.com/hottweelz/TeamBlockchain",
+                "creator": {
+                    "@type": "Person",
+                    "name": "James Tylee"
+                }
+            }
+        ]
+    }
+    </script>
+</body>
+
+</html>

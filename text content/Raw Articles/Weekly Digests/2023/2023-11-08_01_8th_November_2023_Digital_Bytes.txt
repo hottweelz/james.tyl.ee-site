@@ -1,0 +1,5 @@
+ISSUE: 8th-november-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/8th-november-2023-digital-bytes
+TITLE: 8th ember 2023
+
+Quantum proof of work: can it keep blockchain quantum safe?- quantum computers leverage quantum physics for ultra-efficient data processing.

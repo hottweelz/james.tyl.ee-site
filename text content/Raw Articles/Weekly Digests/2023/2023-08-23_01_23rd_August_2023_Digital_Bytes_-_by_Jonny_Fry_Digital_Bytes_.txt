@@ -1,0 +1,5 @@
+ISSUE: 23rd-august-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/23rd-august-2023-digital-bytes
+TITLE: Blockchain explorers: why do they matter?
+
+blockchain explorers are tools similar to search engines (e.g. Google) for blockchain data, offering insights into transactions and more. Whilst they provide transparency, privacy risks still exist but, alongside transparency, smart contract insights and real-time alerts are other benefits. Notable explorers include Etherscan and Blockchain.com, allowing for data, verification of details and utilisation of analytics to be searched whereby enhancing transparency in the blockchain ecosystem.

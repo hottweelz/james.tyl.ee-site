@@ -1,0 +1,17 @@
+{
+    "name": "James Tylee — Fintech & Blockchain Expert",
+    "short_name": "James Tylee",
+    "description": "Fintech veteran with 30+ years experience. Certified Ethereum & Bitcoin professional. Author, media personality, blockchain expert.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f5f0e8",
+    "theme_color": "#b84c2b",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}

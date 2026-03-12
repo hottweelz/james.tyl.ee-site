@@ -1,0 +1,5 @@
+ISSUE: 11th-june-2025-digital-bytes
+URL: https://digitalbytes.substack.com/p/11th-june-2025-digital-bytes
+TITLE: The future of private markets: how tokenisation is revolutionising access and efficiency
+
+tokenisation is revolutionising private markets by turning traditionally illiquid, opaque assets (such as private equity and credit) into accessible, programmable digital securities. With over $13 trillion in global private market assets, tokenisation promises enhanced liquidity, reduced costs and broader investor access through fractional ownership and smart contracts. Backed by major institutions such as BlackRock and JPMorgan, and enabled by evolving regulation (e.g., MiCA, UK Digital Sandbox), tokenisation is poised to democratise private investing whereby transforming it from an elite domain into a more transparent, efficient and inclusive financial frontier.

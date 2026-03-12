@@ -1,0 +1,39 @@
+ISSUE: 29th-may-2024-digital-bytes
+URL: https://digitalbytes.substack.com/p/29th-may-2024-digital-bytes
+TITLE: 40% of the world’s population are gamers, so what role do blockchains play?
+
+the gaming industry boasts a vast global audience with over 3.1 billion players worldwide, encompassing nearly 40% of the population. Blockchain technology is revolutionizing gaming by enhancing security and offering novel monetisation avenues through play-to-earn mechanics. Blockchain's decentralized nature ensures transparency and efficiency in event management, optimising logistics and equitable reward distribution. Despite challenges such as scalability and regulatory uncertainties, yet the use of blockchain heralds a transformative era of gaming innovation and economic opportunity.
+
+Full Article Here
+
+The challenges of quantum computing for blockchain technology - quantum computing (utilising qubits) offers immense computational power but poses serious risks to blockchain technology. It can potentially break traditional cryptographic methods such as RSA and elliptic curve signatures, threatening blockchain security. With about 25% of Bitcoins currently vulnerable to quantum attacks, there is an urgent need for quantum-resistant cryptographic solutions.
+
+Full Article Here
+
+Web3 and wearables integrating and reshaping global wellness - the integration of Web3 applications and wearables are reshaping the global wellness market (valued at $1.8 trillion), particularly driven by Gen Z and millennial consumers. Web3, characterised by blockchain technology, decentralization and patient-centric data control, revolutionises the sector so enabling both data sovereignty and secure, interoperable data exchange. Wearables such as the Oura Ring and emerging competitors leverage Web3 capabilities, offering advanced health monitoring. This shift toward Web3 signifies a user-centric approach to data control and privacy, heralding a new era in wellness technology.
+
+Full Article Here
+
+The intricacies of indexing blockchain data - have you ever stopped and wondered what powers the blockchain applications you may use, such as your crypto wallet, crypto dashboards or even your favourite blockchain game, have? The obvious answer is blockchain data, but obtaining this data is actually an art in itself. Blockchain indexing streamlines data retrieval for decentralized applications (dApps), akin to an index in a book, guiding users to specific information swiftly.
+
+Full Article Here
+
+1
+
+Share
+
+Discussion about this post
+
+Comments Restacks
+
+Top Latest Discussions
+
+No posts
+
+© 2026 Jonny Fry · Privacy ∙ Terms ∙ Collection notice
+
+Start your Substack Get the app
+
+Substack is the home for great culture
+
+This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts

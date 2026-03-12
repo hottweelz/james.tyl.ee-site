@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Digital assets book by James Tylee. Wall Street veteran explores blockchain, stablecoins, and financial infrastructure innovation.">
+    <meta name="canonical" href="https://james.tyl.ee/book.html">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="The Digital Assets Revolution | James Tylee">
+    <meta property="og:description"
+        content="Digital assets book by James Tylee. Wall Street veteran explores blockchain, stablecoins, and financial infrastructure innovation.">
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://james.tyl.ee/book.html">
+    <meta property="og:image" content="https://james.tyl.ee/images/sig_beige-1200.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Digital Assets Revolution | James Tylee">
+    <meta name="twitter:description"
+        content="Digital assets book by James Tylee. Wall Street veteran explores blockchain, stablecoins, and financial infrastructure innovation.">
+    <meta name="twitter:image" content="https://james.tyl.ee/images/sig_beige-1200.png">
+
+    <title>The Digital Assets Revolution | James Tylee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .book-page {
+            --book-primary: #8B4513;
+            --book-accent: #D2691E;
+        }
+
+        .book-hero {
+            background: linear-gradient(135deg, rgba(26, 21, 16, 0.95) 0%, rgba(139, 69, 19, 0.85) 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .book-hero-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            background: none;
+            border: none;
+            font-size: 2rem;
+            cursor: pointer;
+            color: white;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .book-hero-close:hover {
+            opacity: 1;
+        }
+
+        .book-hero-close:focus-visible {
+            outline: 3px solid #c8a96e;
+            border-radius: 2px;
+        }
+
+        .book-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .book-hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--warm);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .book-hero .tagline {
+            font-size: 1rem;
+            color: #e8e3d8;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            line-height: 1.6;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .book-hero .cta-button {
+            padding: 1.25rem 2.5rem;
+            font-size: 1.1rem;
+            background: #b45309;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: background 0.3s;
+        }
+
+        .book-hero .cta-button:hover:not(:disabled) {
+            background: #d97706;
+        }
+
+        .book-hero .cta-button:disabled {
+            opacity: 1;
+            cursor: not-allowed;
+            background: #e8e3d8;
+            color: #6b6b6b;
+        }
+
+        .cta-button:disabled {
+            padding: 1.25rem 2.5rem;
+            font-size: 1.1rem;
+            opacity: 1;
+            cursor: not-allowed;
+            background: #e8e3d8;
+            color: #6b6b6b;
+        }
+
+        .book-hero .cta-button:focus-visible {
+            outline: 3px solid #1a1510;
+            outline-offset: 4px;
+            border-radius: 2px;
+        }
+
+        .book-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .book-overview {
+            background: var(--cream);
+            padding: 3rem;
+            border-left: 4px solid var(--warm);
+            margin: 3rem 0;
+        }
+
+        .book-overview h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: var(--ink);
+        }
+
+        .book-overview p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            color: var(--muted);
+        }
+
+        .featured-quote {
+            background: linear-gradient(135deg, #9d6f3f, #8B4513);
+            color: white;
+            padding: 2rem;
+            margin: 3rem 0;
+            border-radius: 4px;
+            border-left: 4px solid #5a3a1a;
+        }
+
+        .featured-quote blockquote {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin: 0;
+            line-height: 1.8;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .featured-quote cite {
+            display: block;
+            margin-top: 1rem;
+            font-style: normal;
+            font-size: 0.95rem;
+            opacity: 0.95;
+        }
+
+        .chapter-preview {
+            background: white;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            border: 1px solid #e0d9d0;
+            border-left: 3px solid var(--rust);
+        }
+
+        .chapter-preview h3 {
+            color: var(--rust);
+            margin: 0 0 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .chapter-preview p {
+            color: var(--muted);
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .about-author {
+            background: var(--cream);
+            padding: 2rem;
+            margin: 3rem 0;
+            border-radius: 4px;
+        }
+
+        .about-author h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-author p {
+            line-height: 1.8;
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
+        .about-author .credentials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .credential {
+            padding: 1rem;
+            background: white;
+            border-left: 3px solid var(--warm);
+        }
+
+        .credential strong {
+            display: block;
+            color: var(--ink);
+            margin-bottom: 0.5rem;
+        }
+
+        .credential span {
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+
+        .waitlist-form {
+            background: linear-gradient(135deg, #f5f0e8, #faf7f2);
+            padding: 2rem;
+            border-radius: 4px;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .waitlist-form h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .waitlist-form p {
+            color: var(--muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            gap: 0.5rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .form-group input {
+            flex: 1;
+            padding: 0.75rem;
+            border: 1px solid #d4ccc4;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .form-group input:focus-visible {
+            outline: 3px solid var(--rust);
+            outline-offset: 2px;
+        }
+
+        .cta-button:focus-visible {
+            outline: 3px solid white;
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+
+        .form-group button:focus-visible {
+            outline: 3px solid white;
+            outline-offset: 2px;
+        }
+
+        .form-group button {
+            padding: 0.75rem 1.5rem;
+            background: var(--rust);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .form-group button:hover {
+            background: #a03b21;
+        }
+
+        .topics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .topic-tag {
+            background: var(--rust);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .book-hero h1 {
+                font-size: 2rem;
+            }
+
+            .book-hero .subtitle {
+                font-size: 1rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .book-overview {
+                padding: 1.5rem;
+            }
+
+            .credentials {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "The Digital Assets Revolution: A First-Person Journey Through the Future of Money",
+        "author": {
+            "@type": "Person",
+            "name": "James Tylee",
+            "url": "https://james.tyl.ee",
+            "image": "https://james.tyl.ee/images/JT_Profile.webp",
+            "jobTitle": "Fintech Expert & Blockchain Pioneer",
+            "expertise": ["Blockchain Technology", "Digital Assets", "Financial Infrastructure", "Stablecoins", "Cryptocurrency"],
+            "sameAs": ["https://linkedin.com/in/jtylee"],
+            "description": "30+ year Wall Street veteran with expertise in algorithmic trading, financial infrastructure, and blockchain innovation"
+        },
+        "description": "Combining decades of Wall Street experience with blockchain expertise and disability advocacy, James Tylee redefines financial infrastructure through the lens of accessibility and constraint.",
+        "image": "https://james.tyl.ee/images/book-cover.jpg",
+        "url": "https://james.tyl.ee/book.html",
+        "genre": ["Finance", "Technology", "Blockchain", "Personal Narrative"],
+        "keywords": ["digital assets", "blockchain", "stablecoins", "financial infrastructure", "accessibility", "Wall Street", "cryptocurrency", "digital assets book"],
+        "inLanguage": "en",
+        "isPartOf": {
+            "@type": "Periodical",
+            "name": "James Tylee's Publications"
+        }
+    }
+    </script>
+</head>
+
+<body class="book-page">
+    <!-- Privacy Policy Popup -->
+    <div id="privacy-popup" class="privacy-popup hidden">
+        <div class="privacy-popup-content">
+            <button id="privacy-close" class="privacy-popup-close" aria-label="Close privacy popup">×</button>
+            <h3>Privacy & Cookies</h3>
+            <p>We use Google Analytics and other tools to understand how you use this site. By continuing, you agree to
+                our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a> and cookie usage.</p>
+            <div class="privacy-popup-buttons">
+                <button id="privacy-accept" class="privacy-btn-accept">Accept</button>
+                <a href="/privacy-policy.html" target="_blank" class="privacy-btn-learn">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!------------ Header ------------>
+    <header id="top">
+        <nav class="nav-inner" aria-label="Primary navigation">
+            <a href="/" class="nav-logo">James <span>Tylee</span></a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links" role="list">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/writing.html">Writing</a></li>
+                <li><a href="/book.html" aria-current="page">Book</a></li>
+                <li><a href="/#hobbies">Deep Thoughts</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="book-hero" id="book-hero">
+        <button class="book-hero-close" id="book-hero-close" aria-label="Close book hero">×</button>
+        <h1>The Digital Assets Revolution</h1>
+        <p class="subtitle">A First-Person Journey Through the Future of Money</p>
+        <p class="tagline">Disability, Wall Street, and the infrastructure redesign that changes everything. How the
+            perspective shaped by navigating systems not built for me became the framework for reimagining global
+            finance.</p>
+        <div class="cta-buttons">
+            <button class="cta-button" disabled>
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Pre-Order Coming Soon
+            </button>
+        </div>
+    </header>
+
+    <div class="book-container">
+        <div class="featured-quote">
+            <blockquote>"If you build for the person with constraints, you end up with a system that works better for
+                everyone."</blockquote>
+            <cite>— James Tylee, <em>The Digital Assets Revolution</em></cite>
+        </div>
+
+        <section class="book-overview">
+            <h2>What This Digital Assets Book Is About</h2>
+            <p>
+                I was born to be the Underdog. Not by choice. But once I realized I'd beat the competition in one of the
+                most severe situations possible, I understood I could take on anything else.
+            </p>
+            <p>
+                There's a famous story from New York in 1940: a press agent led a bull through a china shop as a
+                publicity stunt. The bull walked through without breaking a single thing. The damage was caused by a
+                bystander—terrified of what might happen—who panicked and backed into shelves. For decades, I've thought
+                about what that story really means.
+            </p>
+            <p>
+                It's about fear. It's about how the expectation of damage causes the damage. It's about how other
+                people's fear becomes your problem to manage. It's the story of blockchain technology in America. It's
+                the story of
+                any digital asset system that was never built for someone like me.
+            </p>
+            <p>
+                I've spent 30 years on Wall Street—Bloomberg, Merrill Lynch, Bank of America—building financial
+                infrastructure and blockchain systems. I've also spent my entire life in a wheelchair, navigating a
+                world that wasn't designed for
+                my body. Those two experiences aren't separate. They're the same lens applied to different problems.
+            </p>
+            <p>
+                <strong>People will tell you I'm arrogant.</strong> What they're really seeing is self-confidence.
+                Confidence that comes from never having the luxury of low expectations. Confidence that comes from
+                proving yourself constantly, not to others, but to yourself. From competing with yourself instead of
+                waiting for the world to give you permission.
+            </p>
+            <p>
+                This book is about financial infrastructure. About how money moves. About stablecoins and digital
+                assets. About how systems work or fail. But underneath
+                all of that, it's about what you learn when you're forced to see systems from the outside—from the
+                position of the person they weren't built for.
+            </p>
+            <p>
+                <strong>The best infrastructure isn't built for the person with perfect conditions. It's built for the
+                    person with the most constraints. And when you do that, it works for everyone.</strong>
+            </p>
+            <p>
+                This is not a book about cryptocurrency hype. This is about the future of money, the role of disability
+                in redesigning systems, and why the underdog perspective is the clearest one you can have.
+            </p>
+        </section>
+
+        <div class="featured-quote">
+            <blockquote>"I was the Underdog. If I beat the competition in one of the most severe situations possible,
+                then I most certainly should be able to take on any other situation."</blockquote>
+            <cite>— James Tylee, on self-confidence and competing with yourself</cite>
+        </div>
+
+        <h2 style="text-align: center; margin: 2rem 0; font-size: 1.5rem;">Core Themes</h2>
+        <div class="topics">
+            <div class="topic-tag">Disability & Finance</div>
+            <div class="topic-tag">Wall Street History</div>
+            <div class="topic-tag">Blockchain Design</div>
+            <div class="topic-tag">Stablecoins</div>
+            <div class="topic-tag">Tokenization</div>
+            <div class="topic-tag">Accessibility</div>
+            <div class="topic-tag">Global Finance</div>
+            <div class="topic-tag">Infrastructure</div>
+        </div>
+
+        <section style="margin: 3rem 0;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem;">What You'll Learn</h2>
+            <div class="chapter-preview">
+                <h3><i class="fas fa-chair" aria-hidden="true"></i> Chapter 1: The World Wasn't Built for Me</h3>
+                <p>How disability taught me to see financial infrastructure gaps. Why America's regulatory fear created
+                    a self-fulfilling prophecy in blockchain and digital assets, while the UK and EU moved forward with
+                    clarity on crypto innovation.</p>
+            </div>
+            <div class="chapter-preview">
+                <h3><i class="fas fa-lightbulb" aria-hidden="true"></i> Chapter 2: What Constraint Teaches You</h3>
+                <p>Wall Street entry stories—from Bloomberg's Michael Bloomberg to Merrill Lynch to UPS. Why redundancy
+                    and alternatives aren't luxury features. They're how you build financial infrastructure and
+                    blockchain systems that don't fail.</p>
+            </div>
+            <div class="chapter-preview">
+                <h3><i class="fas fa-network-wired" aria-hidden="true"></i> Chapter 3: Single Points of Failure</h3>
+                <p>The 2008 crisis, 2010 flash crash, and brittle infrastructure. How digital asset systems and
+                    blockchain technology offer solutions where traditional finance fails. Why this matters for the
+                    future of global finance.</p>
+            </div>
+            <div class="chapter-preview">
+                <h3><i class="fas fa-cube" aria-hidden="true"></i> Chapter 4-8: The Blockchain Path</h3>
+                <p>From pattern recognition to global infrastructure. Stablecoins ($3-4 trillion coming).
+                    USDP—property-backed currency. Tokenization of everything. Real-world applications through Cyber
+                    FM's music rights revolution. Why the Big Bang of digital assets is reshaping finance.</p>
+            </div>
+        </section>
+
+        <div class="featured-quote">
+            <blockquote>"The bull never moved. We just finally stopped being afraid of it."</blockquote>
+            <cite>— On regulatory misunderstanding of blockchain technology</cite>
+        </div>
+
+        <div class="featured-quote">
+            <blockquote>"Their fear is a disability that I sometimes have trouble accepting. I may be the creator of
+                'reverse disablism.'"</blockquote>
+            <cite>— On others' fear becoming a constraint</cite>
+        </div>
+
+        <section class="about-author">
+            <h2>About The Author</h2>
+            <p>
+                James Tylee is a Wall Street veteran with 30+ years in algorithmic trading, financial infrastructure,
+                blockchain technology, and digital assets. He's architected trading platforms and blockchain
+                infrastructure for 30+ countries (Merrill Lynch/Bank of
+                America), advised on multi-billion-dollar projects, and now builds blockchain systems and stablecoins
+                through
+                Cyber FM and digital assets strategy.
+            </p>
+            <p>
+                He's also navigated his entire life in a wheelchair, a perspective that fundamentally shaped how he sees
+                systems, constraints, and what accessibility-first design really means.
+            </p>
+            <div class="credentials">
+                <div class="credential">
+                    <strong>Wall Street</strong>
+                    <span>30+ years fintech, Bloomberg, Merrill Lynch, Bank of America</span>
+                </div>
+                <div class="credential">
+                    <strong>Blockchain</strong>
+                    <span>Founder Cyber FM, digital assets strategist, protocol advisor</span>
+                </div>
+                <div class="credential">
+                    <strong>Media</strong>
+                    <span>200+ Substack articles, 70+ podcast episodes, thought leader</span>
+                </div>
+                <div class="credential">
+                    <strong>Disability Advocacy</strong>
+                    <span>Financial accessibility, system redesign, inclusive infrastructure</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="featured-quote">
+            <blockquote>"I was navigating lower Manhattan in a wheelchair the whole time. Nobody handed me that
+                expertise. I just went and got it."</blockquote>
+            <cite>— On building Wall Street credibility despite structural barriers</cite>
+        </div>
+
+        <section class="preorder-section"
+            style="text-align: center; padding: 2rem; background: #f5f0e8; border: 2px solid var(--warm); margin: 3rem 0;">
+            <h2>Pre-Order Coming Soon</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--muted);">The Digital Assets Revolution — Available for
+                pre-order on Amazon</p>
+            <button class="cta-button" disabled>
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Coming Soon
+            </button>
+            <p style="font-size: 0.9rem; color: var(--muted); margin-top: 1rem;">Sign up for updates when pre-orders
+                launch.</p>
+        </section>
+
+        <section
+            style="background: white; padding: 2rem; border: 1px solid #e0d9d0; margin: 3rem 0; text-align: center;">
+            <h2 style="margin-bottom: 1rem;">Explore More</h2>
+            <p style="color: var(--muted); margin-bottom: 1.5rem;">
+                Discover more insights on <a href="/writing.html"
+                    style="color: var(--warm); text-decoration: underline;">blockchain and digital assets</a> in my <a
+                    href="/writing.html" style="color: var(--warm); text-decoration: underline;">writing collection</a>,
+                featuring 200+ Substack articles and 70+ podcast episodes on financial infrastructure and
+                cryptocurrency.
+            </p>
+            <a href="/writing.html" class="cta-button" style="display: inline-block; text-decoration: none;">
+                <i class="fas fa-arrow-right" aria-hidden="true"></i> Explore My Writing
+            </a>
+        </section>
+    </div>
+
+    <footer>
+        <p>Designed &amp; built by <span>James Tylee</span> · 2026</p>
+        <p class="footer-links"><a href="/writing.html">Writing</a> · <a href="/book.html" aria-current="page">Book</a>
+            · <a href="/privacy-policy.html">Privacy Policy</a> · <a href="/" id="cookie-settings">Back to Home</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

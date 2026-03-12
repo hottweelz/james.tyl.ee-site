@@ -1,0 +1,5 @@
+ISSUE: 19th-march-2025-digital-bytes
+URL: https://digitalbytes.substack.com/p/19th-march-2025-digital-bytes
+TITLE: 19th ch 2025
+
+The pros and cons of AI-powered bots in payments and transactions (Part 2) - AI-powered bots are revolutionising financial transactions, enhancing speed, efficiency and fraud detection whilst introducing security and regulatory risks. With 90% of stablecoin transactions bot-driven, automation is reshaping finance from JP Morgan’s programmable payments to Stripe’s AI-driven processes. However, concerns arise over cybersecurity risks, regulatory uncertainty and job displacement as AI takes over financial decision-making. Past failures such as the Poly Network hack ($600M stolen) and 2010 Flash Crash highlight vulnerabilities. As AI continues to dominate finance, the challenge remains: can automation enhance financial systems whilst ensuring trust, security and human oversight?

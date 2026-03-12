@@ -1,0 +1,5 @@
+ISSUE: 1st-november-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/1st-november-2023-digital-bytes
+TITLE: Smart contract security
+
+a "smart contract" is an automated, self-executing digital agreement that enforces transaction terms on a blockchain; security is crucial as vulnerabilities can lead to exploitation. The development process includes planning, development, review and testing and deployment and maintenance. Tools such as categorization, analysis, visualization, testing and editing help enhance security and ongoing training and certification are essential for those responsible for smart contract security.

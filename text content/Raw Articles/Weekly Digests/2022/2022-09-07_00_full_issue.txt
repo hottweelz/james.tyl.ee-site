@@ -1,0 +1,39 @@
+ISSUE: 7th-september-2022-digital-bytes
+URL: https://digitalbytes.substack.com/p/7th-september-2022-digital-bytes
+TITLE: __FULL_ISSUE__
+
+Ethereum’s: the Merge - Ethereum’s (ETH) long waited upgrade, ‘the Merge’, has heralded an exceptional occurrence in the crypto space because its success could kickstart a number of chain reactions. But a lot has happened since the Ethereum network began merging with Beacons Chain, raising many questions for both members and non-members in the crypto space, such as: Is the reduction in energy consumption the only benefit, and what does this spell for the Ethereum network?
+
+Full Article Here
+
+How blockchains are helping governments and the public sector - since 2008, blockchain technology has evolved and found various areas of applications where ‘trust’ is a challenge. The public sector has become a principal area of application in which governments and public sectors have announced several use cases all around the world. Digital currency/payments, creation of smart cities, supply chain traceability, public sector procurement, data management, taxation, voting, and legal entities management are some areas where blockchain technology is being used to help governments and public sectors be more transparent and more efficient.
+
+Full Article Here
+
+NFT’S: a beginner’s guide - Mainstream society doesn’t always properly comprehend innovation and this too seems to be the case with NFTs. NFTs are being embraced increasingly by global brands and organisations and are predicted to be the way that value is transferred as well, and goods and services will be paid for in the metaverse. NFTs have captured the imagination and indeed the headlines as with any asset class it has also attracted its fair share of nefarious characters. In essence we are only really beginning to understand how NFTs can be used in a variety of situations.
+
+Full Article Here
+
+Open-source ERC3643 brings standardisation and interoperability to digital securities - standardisation is an essential component in the steps towards mainstream adoption since it brings interoperability, security, and efficiency. In the blockchain world, token smart contract standards serve the same purpose. There are token standards for minting different types of tokens, such as ERC20 for utility tokens, ERC721 for NFTs, and ERC3643 for permissioned tokens (digital securities, stablecoins, etc.). These standards are open-source, allowing any developer to use and build their projects on top of them freely.
+
+Full Article Here
+
+2
+
+Share
+
+Discussion about this post
+
+Comments Restacks
+
+Top Latest Discussions
+
+No posts
+
+© 2026 Jonny Fry · Privacy ∙ Terms ∙ Collection notice
+
+Start your Substack Get the app
+
+Substack is the home for great culture
+
+This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts

@@ -1,0 +1,5 @@
+ISSUE: 28th-august-2024-digital-bytes
+URL: https://digitalbytes.substack.com/p/28th-august-2024-digital-bytes
+TITLE: How blockchain's solution to power consumption can benefit AI
+
+artificial intelligence's impressive capabilities come with a significant environmental cost due to high energy consumption, predominantly from fossil fuels. Blockchain, once notorious for its energy issues, presents a potential solution. The shift from proof-of-work to energy efficient proof-of-stake models in blockchain technology could help optimise AI's energy usage. But, how can AI adopt blockchain's advancements to reduce its carbon footprint? And what lessons from blockchain's energy transition can be applied to AI? The convergence of these technologies might hold the key to a sustainable future for AI.

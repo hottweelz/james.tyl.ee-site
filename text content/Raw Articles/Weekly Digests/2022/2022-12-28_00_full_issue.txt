@@ -1,0 +1,81 @@
+ISSUE: digital-bytes-28th-december-2022
+URL: https://digitalbytes.substack.com/p/digital-bytes-28th-december-2022
+TITLE: Digital Bytes 28th December 2022
+
+by Jonny Fry
+
+Digital Bytes
+
+Give gift Gift a subscription
+
+Digital Bytes 28th December 2022
+
+Jonny Fry
+
+Dec 28, 2022
+
+∙ Paid
+
+Share
+
+First of all, thank you to all our subscribers and guest writers in 2022. Digital Bytes has had a great year expanding its readership globally; and our podcasts - which we introduced based on our guest articles - have been very popular. We post the podcasts on:
+
+Spotify
+
+i Heart
+
+Google
+
+Apple
+
+Overcast
+
+Castbox
+
+Pocketcasts
+
+Radio public
+
+Stitcher (podcast App found in newer cars)
+
+Amazon music
+
+If you would like to write a thought-provoking/educational guest article and then use this to create your own podcast, please contact us for more details.
+
+We were also delighted to learn that Digital Bytes had published more content than 92% of other providers in Spotify’s news category in 2022. Editor, Jonny Fry, was awarded ‘Influencer of the Year’ at the prestigious Crypto AM 2022 awards summit last month in recognition of the work and time Digital Bytes commits to helping organisations and individuals understand how, why, where and who are using blockchain technology and digital assets in industries across the world.
+
+What we predicted for 2022 and what actually happened
+
+Blockchains to be become more scalable
+
+“Common criticisms and reasons argued by the naysayers for not using blockchain technology has been that blockchain-powered platforms would not be able to handle large volumes of transactions. Digital Bytes reported on the 22nd of December 2021 that Mastercard processed $6.3 trillion of transactions versus Ethereum which processed $6.2 trillion of transactions in 2021, and predicts that we will see blockchain-powered platforms become faster and be able to handle even more transactions per second as 2022 progresses, so encouraging even greater institutional engagement with this technology.”
+
+·      Institutions are investing or using blockchain as part of their day-to-day activities. Ethereum has moved from Proof of Stake to Proof of Works , making this blockchain greener, cheaper and more scalable. DBS Bank, JPMorgan and SBI Digital Asset Holdings carried out foreign exchange and government bond transactions tokenised Singapore Government Securities Bonds, Japanese Government Bonds, Japanese Yen and Singapore Dollars. The opportunities to use blockchain technology and digital assets in the $129trillion debt market have been massive.
+
+Adoption of CBDCs and stablecoins increases
+
+“Expect to see a number of Central Bank Digital Currencies (CBDC) and stablecoins being launched. The world’s second largest economy, China, is set to launch its digital Yuan at the Winter Olympics in Beijing in February. The Chinese CBDC will be for wholesale as well as for retail users, but will not be using blockchain technology as the Chinese government looks to keep total control. Other countries will equally be trialling CBCDs as well as officially launching their own during 2022. Given that most CBDCs will be primarily aimed at the wholesale market, there is still plenty of scope for a range of retail-focused stablecoins to be launched. Will 2022 see challenges for some of the decentralised autonomous organisations’ (DAO) stablecoins and other stablecoins not 100% being backed by fiat currencies?”
+
+·      According to CoinGecko, there are 90 stablecoins with a market value of $140billion in existence. There are many examples of developments and issuance of CBDC and stablecoins in PwC’s 2022 review of these new digital currencies.
+
+Climate change becomes more critical
+
+“Given the growing awareness and concerns around climate change, we are likely to see governments and corporations looking to influence and encourage a change of behaviour so as to encourage us all to be more mindful of global warming. Some governments are likely to use a ‘carrot and stick’ approach e.g., a ‘stick’ in the form of taxes to reduce our carbon footprint (congestion charges on roads, taxes on pollution, airline ticket taxation etc) and a ‘carrot’ in the form of carbon credits - possibly even issuing tokens to reward consumption/behaviour which helps the environment (using bicycles, not cars). Corporations may turn to offering tokens as way to reward staff and customers for being more mindful about pollution and recycling as they increasingly focus on being able to improve their Environmental Social Governance (ESG) credentials.”
+
+·      Euronews has compiled a selection of positive stories as regards to climate change in 2022. There is a growing awareness around climate change and the impact it is having globally.
+
+DeFi set to expand
+
+“Decentralised Finance (DeFi) promises to make financial markets more inclusive on a global basis by offering a range of digital lending, borrowing, insurance, and trading products and services. We are likely to witness other regulated DeFi exchanges follow the lead of Berlin-based Swarm Markets and so enable greater institutional engagement. It will be interesting to see what support the Depository Trust Clearing Corporation (DTCC) in the USA and the International Swaps and Derivatives Association (ISDA) offer DeFi and blockchain-powered platforms in 2022.”
+
+·      JPMorgan announced plans to tokenise traditional finance assets and bring trillions of dollars into DeFi. JPMorgan Chase’s Project Guardian - institutionally-compatible DeFi via liquidity pools offering tokenised deposits and bonds. FIS, a quoted FinTech firm, has partnered with Fireblocks to offer its clients full access to DeFi and staking. “ Goldman Sachs is collaborating with MSCI and Coin Metrics to launch a digital assets framework. Called  Datonomy , the tool will allow users to keep a tab on the market and will have a focus on DeFi ”
+
+Digitalisation of equities, bonds and commodities advances
+
+“There are now a number of regulated exchanges; in the UK - Archax; Switzerland - SIX; Singapore - DBS and Germany - Swarm. If these regulated exchanges are also ‘recognised’, then this will enable many mutual funds to invest in those assets quoted/listed on these regulated exchanges. This may well usher-in the issuing of many more tokenised/digitised wrappers around stock, bonds, commodities, real estate, derivatives and cash in 2022.”
+
+·      The first digital fixed income bond on the German Electronic Securities Act (eWpG). The issue was carried out by Clearstream on Deutsche Börse’s D7 digital post-trade platform with Deutsche Bank as the lead manager. Fintech futures highlight a plethora of projects in 2022, from a variety of jurisdictions where traditional assets are being digitised, although we have not seen as much progress as we had predicted in terms of the digitisation and use of smart contracts in the derivatives industry. Daniel Ivanier, CEO at Fragmos Chain when announcing a venture with Finestra, has stated that: “ By digitalising the confirmation process of all derivatives, automating all post-trade processes and arduous documentation, such as for the International Swaps and Derivatives Association (ISDA), and eliminating paper, we are helping banks to streamline their operations, trade efficiently and securely, and reduce their risks, capital and costs ”. If it can be demonstrably proved blockchain technology and digital assets are able to improve compliance standards at a lower cost, then we will see regulators championing their use…
+
+ESG set to become centre stage
+
+“Governments and companies are likely to use blockchain technology to be able to offer greater transparency whereby allowing suppliers and individuals to be able to track and trace where and how goods have been sourced. Meeting Environmental Social Governance (ESG) requirements will continue to be a key issue for prospective investors and firms looking to raise capital. Expect to see ongoing issuance of $/£/€/Yen/CHF billions of green bonds. Existing shareholders, suppliers and staff will also be holding companies to account as to corporations’ ESG crede

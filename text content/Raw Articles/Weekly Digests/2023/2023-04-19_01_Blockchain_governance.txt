@@ -1,0 +1,5 @@
+ISSUE: 19th-april-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/19th-april-2023-digital-bytes
+TITLE: Blockchain governance
+
+blockchain governance creates the rules by which a blockchain will function, so enabling users to determine which blockchain is the most appropriate for them to select.

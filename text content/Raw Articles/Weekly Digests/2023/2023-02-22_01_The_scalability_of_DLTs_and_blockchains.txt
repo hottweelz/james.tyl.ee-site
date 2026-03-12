@@ -1,0 +1,5 @@
+ISSUE: 22nd-february-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/22nd-february-2023-digital-bytes
+TITLE: The scalability of DLTs and blockchains
+
+One of the reasons for not using DLTs and blockchain-powered platforms was that they were considered to be unscalable. However, there are now a number of examples where DLTs/blockchains have been deployed  - indeed, handling huge amounts of data quickly and in a very secure manner. The ability to process and automate transactions using smart contracts has led to the creation of new ways to handle trades in the form of automatic market makers - which could have implications for the way that different securities are traded.

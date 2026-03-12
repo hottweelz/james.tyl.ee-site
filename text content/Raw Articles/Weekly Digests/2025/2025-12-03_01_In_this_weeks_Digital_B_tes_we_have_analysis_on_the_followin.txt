@@ -1,0 +1,5 @@
+ISSUE: digital-bytes-3rd-december-2025
+URL: https://digitalbytes.substack.com/p/digital-bytes-3rd-december-2025
+TITLE: In this week’s Digital B tes we have analysis on the following topics
+
+When tokenised debt goes bad - tokenisation is transforming fixed-income markets by converting bonds and loans into blockchain-based bearer assets, bringing instant settlement, automated coupons and fractional liquidity. But when defaults occur, they may play out - not through courts and renegotiations - but via smart-contract triggers, oracle feeds and automatic liquidations. That makes new risk profiles possible: code bugs, oracle failures, jurisdictional fragmentation and “digital courts” lacking sovereign legitimacy. As on-chain debt issuance grows, from governments to banks, the danger is that the next debt crisis could unfold in real time. Without careful guardrails, tokenisation risks hard-coding structural rigidity before human oversight can intervene.

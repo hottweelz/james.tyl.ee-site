@@ -1,0 +1,5 @@
+ISSUE: 2nd-august-2023-digital-bytes
+URL: https://digitalbytes.substack.com/p/2nd-august-2023-digital-bytes
+TITLE: DeFi and privacy
+
+balancing transparency and data protection - DeFi, which stands for decentralised finance, is growing fast and, according to Defillama , as of June 2023 it has a total locked value of $41.4 billion. DeFi offers a range of traditional financial services, such as interest-bearing accounts, loans, borrowing and prediction markets, in an alternative, decentralised way. For DeFi to garner greater institutional support it will likely be required to comply with AML/KYC checks, such checks on the face of it are an anathema to a decentralised way of doing business.

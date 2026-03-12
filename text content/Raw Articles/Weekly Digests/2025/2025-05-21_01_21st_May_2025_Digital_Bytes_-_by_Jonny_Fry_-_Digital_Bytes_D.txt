@@ -1,0 +1,5 @@
+ISSUE: 21st-may-2025-digital-bytes
+URL: https://digitalbytes.substack.com/p/21st-may-2025-digital-bytes
+TITLE: Tokenisation at an inflection point: what will it take for tokenisation to achieve mainstream adoption? (Part 2)
+
+tokenisation is nearing a pivotal moment as institutions such as Ripple, JPMorgan and DBS invest in critical infrastructure; yet mainstream adoption remains limited by regulatory uncertainty, technical fragmentation and integration hurdles. For tokenised finance to scale, then clearer rules, scalable tech and compelling use cases are needed and, whilst strategic acquisitions are happening and regulatory sandboxes suggest momentum is building, the shift from pilots to full-scale adoption will demand co-ordinated global efforts across the financial ecosystem. Tokenisation will likely follow a phased adoption trajectory rather than experiencing a sudden tipping point, with strategic positioning today determining which institutions will lead tomorrow's financial transformation.
