@@ -1,0 +1,30 @@
+{
+    "$schema": "https://json.schemastore.org/wrangler.json",
+    "name": "jamestylee-site",
+    "compatibility_date": "2025-09-27",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "observability": {
+        "enabled": true
+    },
+    "assets": {
+        "directory": "."
+    },
+    "routes": [
+        {
+            "pattern": "james.tyl.ee/*",
+            "zone_name": "tyl.ee"
+        }
+    ],
+    "env": {
+        "production": {
+            "routes": [
+                {
+                    "pattern": "james.tyl.ee/*",
+                    "zone_name": "tyl.ee"
+                }
+            ]
+        }
+    }
+}
