@@ -600,7 +600,7 @@ section {
 /*--------------- Footer ---------------*/
 footer {
     background: var(--ink);
-    color: rgba(245, 240, 232, 0.4);
+    color: rgba(245, 240, 232, 0.85);
     text-align: center;
     padding: 2rem;
     font-size: 0.8rem;
@@ -813,6 +813,12 @@ footer span {
     opacity: 1;
 }
 
+.privacy-popup-close {
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.5rem;
+}
+
 .privacy-popup-close:focus-visible {
     outline: 3px solid var(--rust);
     border-radius: 2px;
@@ -830,6 +836,8 @@ footer span {
     color: var(--cream);
     border: none;
     padding: 0.75rem 1.5rem;
+    min-width: 44px;
+    min-height: 44px;
     font-family: var(--ff-body);
     font-size: 0.85rem;
     font-weight: 500;
@@ -856,6 +864,12 @@ footer span {
     font-weight: 500;
     cursor: pointer;
     transition: opacity var(--trans);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0.5rem;
 }
 
 .privacy-btn-learn:focus-visible {
@@ -866,11 +880,11 @@ footer span {
 footer .footer-links {
     margin-top: 0.5rem;
     font-size: 0.75rem;
-    color: rgba(245, 240, 232, 0.5);
+    color: rgba(245, 240, 232, 0.85);
 }
 
 footer .footer-links a {
-    color: rgba(245, 240, 232, 0.6);
+    color: rgba(245, 240, 232, 0.8);
     text-decoration: underline;
     transition: color var(--trans);
 }
