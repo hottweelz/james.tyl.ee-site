@@ -2,4 +2,15 @@ User-agent: *
 Allow: /
 Allow: llms.txt
 
+# AI agent discovery
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://james.tyl.ee/sitemap.xml
+Sitemap: https://james.tyl.ee/llms.txt

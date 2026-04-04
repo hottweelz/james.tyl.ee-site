@@ -11,6 +11,7 @@
 - [Book: The Digital Assets Revolution](https://james.tyl.ee/book.html): James Tylee's upcoming book — a first-person account of how Wall Street experience and disability shaped a new lens on financial infrastructure and digital assets.
 - [Book (Markdown)](https://james.tyl.ee/book.md): Machine-readable companion file for the book page.
 - [Privacy Policy](https://james.tyl.ee/privacy-policy.html): GDPR-compliant privacy and cookie policy for james.tyl.ee.
+- [Tylee Smart Markets / Advisory Services (Markdown)](https://james.tyl.ee/product.md): Advisory and consulting services offered by James Tylee — fintech strategy, blockchain advisory, and digital asset consulting.
 
 ## Key Content
 
