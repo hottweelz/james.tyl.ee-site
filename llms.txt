@@ -6,7 +6,9 @@
 
 - [Homepage / About](https://james.tyl.ee): Biography, credentials, philosophy, and contact information for James Tylee.
 - [Writing & Publications](https://james.tyl.ee/writing.html): 200+ fintech and blockchain articles via Digital Bytes Substack, 70+ Digital Bytes Podcast episodes, and open-source contributions on GitHub.
+- [Writing & Publications (Markdown)](https://james.tyl.ee/writing.md): Machine-readable companion file for the Writing & Publications page.
 - [Book: The Digital Assets Revolution](https://james.tyl.ee/book.html): James Tylee's upcoming book — a first-person account of how Wall Street experience and disability shaped a new lens on financial infrastructure and digital assets.
+- [Book (Markdown)](https://james.tyl.ee/book.md): Machine-readable companion file for the book page.
 - [Privacy Policy](https://james.tyl.ee/privacy-policy.html): GDPR-compliant privacy and cookie policy for james.tyl.ee.
 
 ## Key Content
