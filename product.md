@@ -14,13 +14,13 @@ providerUrl: https://james.tyl.ee
 
 > James Tylee offers fintech strategy, blockchain advisory, and digital asset consulting to institutions, startups, and media organisations. With 30 years of financial markets experience since 1995 — across the US Treasury, Wall Street (Bloomberg, Merrill Lynch, Bank of America), and blockchain — his advisory is grounded in hands-on practitioner knowledge, not theory.
 
-## Tylee Smart Markets
+## Tylee Smart Markets *(Coming Soon)*
 
-**Tylee Smart Markets** is James Tylee's primary advisory and market intelligence platform.
+**Tylee Smart Markets** is James Tylee's forthcoming advisory and market intelligence platform, currently in development.
 
-→ https://tsm.tyl.ee
+→ https://tsm.tyl.ee *(coming soon)*
 
-Tylee Smart Markets provides:
+Tylee Smart Markets will provide:
 - Financial markets analysis and digital asset strategy
 - Institutional fintech advisory
 - Blockchain infrastructure consulting
