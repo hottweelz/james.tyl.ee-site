@@ -24,4 +24,10 @@
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
    </url>
+   <url>
+      <loc>https://james.tyl.ee/terms-of-service.html</loc>
+      <lastmod>2026-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
+   </url>
 </urlset>
