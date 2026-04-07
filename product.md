@@ -61,5 +61,5 @@ James Tylee is available for keynotes, panels, podcast appearances, and media co
 
 - Advisory platform: https://tsm.tyl.ee
 - Website: https://james.tyl.ee
-- LinkedIn: https://www.linkedin.com/in/james-tylee
+- LinkedIn: https://www.linkedin.com/in/jtylee
 - Linktree: https://linktr.ee/james.tylee

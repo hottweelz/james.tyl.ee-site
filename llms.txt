@@ -26,11 +26,11 @@
 ## Expertise
 
 James Tylee's writing and commentary covers: Bitcoin, Ethereum, DeFi, smart contracts, stablecoins, CBDCs, asset tokenization, Web3 infrastructure, crypto regulation, payment systems, AI and blockchain convergence, geopolitics of digital finance, and financial technology for institutional adoption.
-jtylee
+
 ## Credentials
 
-- Certified Bitcoin Professional (CBP) — C4 Consortium (https://c4.org)
-- Certified Ethereum Professional (CEP) — C4 Consortium (https://c4.org)
+- Certified Bitcoin Professional (CBP) — C4 Consortium (https://cryptoconsortium.org/lookup?token=2a9e19&certification_code=CBP)
+- Certified Ethereum Professional (CEP) — C4 Consortium (https://cryptoconsortium.org/lookup?token=eff754&certification_code=CEP)
 - 30+ years experience in institutional fintech and financial markets
 - Broadcast radio production and media personality (Cyber.FM)
 

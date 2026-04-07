@@ -7,7 +7,7 @@ dateModified: 2026-04-04
 version: "1.0"
 schema: Person
 sameAs:
-  - https://www.linkedin.com/in/james-tylee
+  - https://www.linkedin.com/in/jtylee
   - https://www.amazon.com/stores/author/B08LXRDL8N
   - https://digitalbytes.substack.com
   - https://github.com/hottweelz/TeamBlockchain
@@ -86,7 +86,7 @@ James Tylee's defining intellectual contribution is the **constraint-driven infr
 ## Contact & Profiles
 
 - Website: https://james.tyl.ee
-- LinkedIn: https://www.linkedin.com/in/james-tylee
+- LinkedIn: https://www.linkedin.com/in/jtylee
 - Linktree: https://linktr.ee/james.tylee
 - Amazon: https://www.amazon.com/stores/author/B08LXRDL8N
 - Tylee Smart Markets: https://tsm.tyl.ee
