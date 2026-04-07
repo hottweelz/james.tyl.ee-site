@@ -15,6 +15,7 @@ sameAs:
   - https://www.cyber.fm
   - https://www.teamblockchain.net
   - https://tsm.tyl.ee
+  - https://www.crunchbase.com/person/james-tylee
 ---
 
 # James Tylee
