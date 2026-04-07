@@ -18,6 +18,7 @@
 - [Digital Bytes Substack](https://digitalbytes.substack.com): Primary publication — 200+ original articles on fintech, blockchain, stablecoins, DeFi, CBDCs, tokenization, and crypto regulation.
 - [Digital Bytes Podcast on Spotify](https://open.spotify.com/show/0wxqlnCDOlk5NXiEtaJYKr): 70+ episodes exploring fintech innovation and blockchain technology, including interviews with industry leaders.
 - [Team Blockchain on GitHub](https://github.com/hottweelz/TeamBlockchain): Open-source blockchain education, developer resources, and protocol documentation.
+- [james.tyl.ee site source on GitHub](https://github.com/hottweelz/james.tyl.ee-site): Public source repository for james.tyl.ee — contains all companion .md files, structured content, and site assets for James Tylee's personal brand site.
 - [Amazon Author Profile](https://www.amazon.com/stores/author/B08LXRDL8N): James Tylee's author page on Amazon.
 - [LinkedIn](https://www.linkedin.com/in/jtylee): Professional profile and industry commentary.
 - [Tylee Smart Markets](https://tsm.tyl.ee): Forthcoming financial markets advisory platform (coming soon).

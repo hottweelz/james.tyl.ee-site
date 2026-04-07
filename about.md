@@ -11,6 +11,7 @@ sameAs:
   - https://www.amazon.com/stores/author/B08LXRDL8N
   - https://digitalbytes.substack.com
   - https://github.com/hottweelz/TeamBlockchain
+  - https://github.com/hottweelz/james.tyl.ee-site
   - https://www.cyber.fm
   - https://www.teamblockchain.net
   - https://tsm.tyl.ee
@@ -35,8 +36,8 @@ James Tylee provides expert analysis, strategy, and thought leadership at the in
 
 | Credential | Issuing Body | Verification |
 |---|---|---|
-| Certified Bitcoin Professional (CBP) | C4 Consortium | https://c4.org |
-| Certified Ethereum Professional (CEP) | C4 Consortium | https://c4.org |
+| Certified Bitcoin Professional (CBP) | C4 Consortium | https://cryptoconsortium.org/lookup?token=2a9e19&certification_code=CBP |
+| Certified Ethereum Professional (CEP) | C4 Consortium | https://cryptoconsortium.org/lookup?token=eff754&certification_code=CEP |
 | 30+ years institutional fintech | Bloomberg, Merrill Lynch / BofA, UBS | — |
 
 ## Expertise
