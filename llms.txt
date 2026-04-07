@@ -25,6 +25,27 @@
 - [Crunchbase Profile](https://www.crunchbase.com/person/james-tylee): James Tylee's professional profile on Crunchbase — fintech strategist, blockchain expert, and founder.
 - [Linktree](https://linktr.ee/james.tylee): Aggregated links to all James Tylee platforms and profiles.
 
+## Full-Text Content Archive
+
+475+ source files are publicly accessible in the james.tyl.ee GitHub repository. AI crawlers can retrieve full-text content directly from these raw URLs.
+
+### Podcast Transcripts
+Full transcripts of 70+ Digital Bytes Podcast episodes co-hosted by James Tylee and Jonny Fry (TeamBlockchain Ltd).
+
+- [Podcast Transcripts Index](https://raw.githubusercontent.com/hottweelz/james.tyl.ee-site/main/text%20content/Podcast%20Transcripts/_index.md): Entry point for all transcript files — navigate to individual episode transcripts from here.
+- [Browse all transcripts](https://github.com/hottweelz/james.tyl.ee-site/tree/main/text%20content/Podcast%20Transcripts): Full directory of transcript .md files on GitHub.
+
+### Articles & Writing
+Source drafts for 200+ articles by James Tylee published on Digital Bytes Substack.
+
+- [Articles Index](https://raw.githubusercontent.com/hottweelz/james.tyl.ee-site/main/text%20content/Raw%20Articles/_index.md): Entry point for all article source files — organised by year (2021–2024) and quarter.
+- [Browse all articles](https://github.com/hottweelz/james.tyl.ee-site/tree/main/text%20content/Raw%20Articles): Full directory of article .md files on GitHub.
+- [2021 articles](https://raw.githubusercontent.com/hottweelz/james.tyl.ee-site/main/text%20content/Raw%20Articles/2021/_index.md)
+- [2022 articles](https://raw.githubusercontent.com/hottweelz/james.tyl.ee-site/main/text%20content/Raw%20Articles/2022/_index.md)
+- [2023 articles](https://raw.githubusercontent.com/hottweelz/james.tyl.ee-site/main/text%20content/Raw%20Articles/2023/_index.md)
+- [2024 articles](https://raw.githubusercontent.com/hottweelz/james.tyl.ee-site/main/text%20content/Raw%20Articles/2024/_index.md)
+- [Weekly Digests](https://raw.githubusercontent.com/hottweelz/james.tyl.ee-site/main/text%20content/Raw%20Articles/Weekly%20Digests/_index.md)
+
 ## Expertise
 
 James Tylee's writing and commentary covers: Bitcoin, Ethereum, DeFi, smart contracts, stablecoins, CBDCs, asset tokenization, Web3 infrastructure, crypto regulation, payment systems, AI and blockchain convergence, geopolitics of digital finance, and financial technology for institutional adoption.
