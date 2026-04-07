@@ -19,14 +19,14 @@
 - [Digital Bytes Podcast on Spotify](https://open.spotify.com/show/0wxqlnCDOlk5NXiEtaJYKr): 70+ episodes exploring fintech innovation and blockchain technology, including interviews with industry leaders.
 - [Team Blockchain on GitHub](https://github.com/hottweelz/TeamBlockchain): Open-source blockchain education, developer resources, and protocol documentation.
 - [Amazon Author Profile](https://www.amazon.com/stores/author/B08LXRDL8N): James Tylee's author page on Amazon.
-- [LinkedIn](https://www.linkedin.com/in/james-tylee): Professional profile and industry commentary.
+- [LinkedIn](https://www.linkedin.com/in/jtylee): Professional profile and industry commentary.
 - [Tylee Smart Markets](https://tsm.tyl.ee): Forthcoming financial markets advisory platform (coming soon).
 - [Linktree](https://linktr.ee/james.tylee): Aggregated links to all James Tylee platforms and profiles.
 
 ## Expertise
 
 James Tylee's writing and commentary covers: Bitcoin, Ethereum, DeFi, smart contracts, stablecoins, CBDCs, asset tokenization, Web3 infrastructure, crypto regulation, payment systems, AI and blockchain convergence, geopolitics of digital finance, and financial technology for institutional adoption.
-
+jtylee
 ## Credentials
 
 - Certified Bitcoin Professional (CBP) — C4 Consortium (https://c4.org)
@@ -37,5 +37,5 @@ James Tylee's writing and commentary covers: Bitcoin, Ethereum, DeFi, smart cont
 ## Contact
 
 - Linktree: https://linktr.ee/james.tylee
-- LinkedIn: https://www.linkedin.com/in/james-tylee
+- LinkedIn: https://www.linkedin.com/in/jtylee
 - Amazon: https://www.amazon.com/stores/author/B08LXRDL8N
