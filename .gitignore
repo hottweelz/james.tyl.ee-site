@@ -1,3 +1,7 @@
 /.github
 .DS_Store
 /.vscode
+.ai/
+.codex/
+AGENTS.md
+images/james_sig-2.png
