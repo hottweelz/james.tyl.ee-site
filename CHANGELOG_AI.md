@@ -157,3 +157,47 @@ Next recommended steps:
 
 Notes for next agent:
 - This is a follow-up sizing tweak only; the asset and alt text remain unchanged.
+
+### 2026-05-11 18:17 EDT — Codex
+
+Task:
+- Push the latest site changes: the `Tylee Smart Markets` href update and the updated `logos/tsm.webp` asset.
+
+Selected agent team:
+- Frontend Engineer: the change is a small site navigation and asset update.
+- Minimal Change Engineer: keep the push limited to the tracked files that affect the page.
+
+Changes made:
+- Updated the `Tylee Smart Markets` link in `index.html` to `https://tyl.ee`.
+- Kept the updated `logos/tsm.webp` binary in the commit.
+
+Files touched:
+- `index.html`
+- `logos/tsm.webp`
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+git status --short --branch
+git diff --stat -- index.html logos/tsm.webp
+git diff -- index.html
+rg -n "tsm-logo_sm\\.png|tsm\\.webp|https://tyl.ee|https://tsm.tyl.ee" index.html logos -g '!node_modules'
+```
+
+Results:
+- Confirmed the page link points to `https://tyl.ee`.
+- Confirmed `logos/tsm.webp` is the only asset file involved in the site change.
+- Confirmed `logos/tsm-logo_sm.png` is unreferenced and was left uncommitted.
+
+Decisions made:
+- Did not include `logos/tsm-logo_sm.png` because it is not referenced by the site and appears to be an extra local artifact.
+
+Known issues:
+- None identified for this change.
+
+Next recommended steps:
+- Commit and push the tracked changes.
+
+Notes for next agent:
+- If `logos/tsm-logo_sm.png` should be used later, wire it into the site explicitly before committing it.
