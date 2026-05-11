@@ -119,3 +119,41 @@ Next recommended steps:
 
 Notes for next agent:
 - The hero image is still responsive due to `max-width: 100%`; only the desktop target size changed.
+
+### 2026-05-11 18:17 EDT — Codex
+
+Task:
+- Change the hero signature PNG width from `552px` to `475px`.
+
+Selected agent team:
+- Frontend Engineer: the change affects visual presentation in the hero area.
+- Minimal Change Engineer: keep the update limited to the single width value requested.
+
+Changes made:
+- Updated the hero signature `<img>` in `index.html` to `width: 475px` while preserving `max-width: 100%`.
+
+Files touched:
+- `index.html`
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+git diff -- index.html
+date '+%Y-%m-%d %H:%M %Z'
+```
+
+Results:
+- Confirmed the only markup change was the inline width adjustment from `552px` to `475px`.
+
+Decisions made:
+- Kept the responsive `max-width: 100%` behavior so the image still scales down on smaller screens.
+
+Known issues:
+- None identified for this change.
+
+Next recommended steps:
+- Commit and push this width adjustment.
+
+Notes for next agent:
+- This is a follow-up sizing tweak only; the asset and alt text remain unchanged.
