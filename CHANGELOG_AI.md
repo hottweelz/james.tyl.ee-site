@@ -79,3 +79,43 @@ Next recommended steps:
 
 Notes for next agent:
 - The newly ignored files should stop appearing in `git status` once this change is committed.
+
+### 2026-05-11 18:13 EDT — Codex
+
+Task:
+- Reduce the hero signature PNG to about one-third of its original size.
+
+Selected agent team:
+- Frontend Engineer: the change affects visual presentation and should remain responsive.
+- Minimal Change Engineer: keep the adjustment to a single sizing declaration.
+
+Changes made:
+- Set the hero signature image width in `index.html` to `552px`, with `max-width: 100%` so it still scales down on smaller screens.
+
+Files touched:
+- `index.html`
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+file images/james_sig-3.png
+git diff -- index.html
+date '+%Y-%m-%d %H:%M %Z'
+```
+
+Results:
+- Confirmed `images/james_sig-3.png` is `1672 x 941`.
+- Confirmed the visible hero image size now targets roughly 33% of that intrinsic width.
+
+Decisions made:
+- Used a fixed desktop width of `552px` instead of a layout refactor, because it matches the requested scale and keeps the diff minimal.
+
+Known issues:
+- None identified for this change.
+
+Next recommended steps:
+- If you want, I can push this sizing tweak as a follow-up commit.
+
+Notes for next agent:
+- The hero image is still responsive due to `max-width: 100%`; only the desktop target size changed.
