@@ -314,3 +314,54 @@ Next recommended steps:
 
 Notes for next agent:
 - The visibility changes are now on GitHub at commit `d174321`; ignore the remaining unrelated untracked local files unless the user asks about them.
+
+### 2026-05-13 19:15 EDT — Codex
+
+Task:
+- Apply the final easy LLM-readiness fix from the latest scan by adding a homepage schema freshness timestamp, then push it to GitHub.
+
+Selected agent team:
+- LLM Optimization Agent: narrowed the scan to the single remaining high-signal freshness fix.
+- Frontend Engineer: updated the homepage metadata safely.
+- Minimal Change Engineer: kept the patch to the smallest possible one-line schema change.
+
+Changes made:
+- Added `"dateModified": "2026-05-13"` to the homepage `Person` JSON-LD in `index.html`.
+
+Files touched:
+- `index.html`
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+sed -n '1,320p' CHANGELOG_AI.md
+sed -n '1,220p' .ai/rules/agent-team-selection.md
+sed -n '1,260p' .ai/rules/ai-handoff.md
+sed -n '1,260p' /Users/jamestylee/Downloads/agent-scan-2026-05-13-3.md
+sed -n '1,220p' index.html
+rg -n 'dateModified' index.html
+git diff --check
+git diff -- index.html
+xmllint --html --noout index.html
+git status --short --branch
+```
+
+Results:
+- Confirmed the homepage `Person` JSON-LD now includes `dateModified`.
+- Confirmed the only site-code change in this pass is the single new schema property in `index.html`.
+- `xmllint` reported existing HTML5 parsing noise in `index.html`, but nothing in the output indicated a problem caused by the new JSON-LD line.
+
+Decisions made:
+- Chose the smallest scan-recommended fix instead of widening scope to article-schema work or image discoverability work.
+- Used the current date `2026-05-13` in schema to match the actual modification being made in this pass.
+
+Known issues:
+- The scan's other suggestions, such as adding a sample article page or extra image discovery channels, were intentionally left out of this tiny follow-up.
+- The working tree still has unrelated untracked local files: `GEMINI.md` and `logos/tsm-logo_sm.png`.
+
+Next recommended steps:
+- Push this one-line schema update and rerun the external scan if you want to confirm the remaining freshness note disappears.
+
+Notes for next agent:
+- This pass is intentionally minimal; if future scan work is needed, the next logical step would be article-level schema, not more homepage refactoring.
