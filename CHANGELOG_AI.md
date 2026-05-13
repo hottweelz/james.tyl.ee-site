@@ -276,3 +276,41 @@ Next recommended steps:
 
 Notes for next agent:
 - Commit only the edited site files and `CHANGELOG_AI.md`; do not include unrelated untracked files in the repo root or `logos/`.
+
+### 2026-05-13 18:13 EDT — Codex
+
+Task:
+- Record the completed git commit and push for the LLM visibility update so the handoff ledger matches the live repo state.
+
+Selected agent team:
+- Minimal Change Engineer: this is a ledger-only follow-up to keep the handoff exact.
+
+Changes made:
+- Added a follow-up handoff entry documenting the successful commit and push for the LLM optimization patch.
+
+Files touched:
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+git commit -m "Improve LLM discovery and canonical signals"
+git push origin main
+git status --short --branch
+```
+
+Results:
+- Confirmed commit `d174321` was created on `main`.
+- Confirmed the commit was pushed to `origin/main`.
+
+Decisions made:
+- Used a separate changelog-only follow-up entry instead of rewriting the prior entry after the push had already happened.
+
+Known issues:
+- The working tree still has unrelated untracked local files: `GEMINI.md` and `logos/tsm-logo_sm.png`.
+
+Next recommended steps:
+- Rerun the external LLM readiness scan after deployment finishes propagating.
+
+Notes for next agent:
+- The visibility changes are now on GitHub at commit `d174321`; ignore the remaining unrelated untracked local files unless the user asks about them.
