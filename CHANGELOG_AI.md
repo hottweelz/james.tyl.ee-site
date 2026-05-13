@@ -201,3 +201,78 @@ Next recommended steps:
 
 Notes for next agent:
 - If `logos/tsm-logo_sm.png` should be used later, wire it into the site explicitly before committing it.
+
+### 2026-05-13 18:12 EDT — Codex
+
+Task:
+- Apply the latest LLM optimization feedback to improve crawler discovery, canonical URL consistency, and advisory-service structured data, then push the site updates to GitHub.
+
+Selected agent team:
+- LLM Optimization Agent: translated the scan into the highest-impact retrieval and training fixes.
+- Frontend Engineer: updated HTML discovery paths, canonical links, and structured data safely.
+- Minimal Change Engineer: kept the patch focused on visibility signals instead of broader content rewrites.
+
+Changes made:
+- Updated `sitemap.xml` to use canonical extensionless public URLs, added `/services`, and added the companion markdown files as first-class sitemap entries.
+- Updated `llms.txt` to point at canonical extensionless pages and added the HTML advisory services page plus the terms page.
+- Replaced internal `.html` navigation links in the edited pages with canonical extensionless routes to reduce redirect hops for crawlers.
+- Repointed the homepage "Browse by Topic" CTA from the broken `/blog/` path to `/writing`.
+- Added HTML discovery links for `about.md`, `writing.md`, `book.md`, and `product.md` in visible page footers and added `rel="alternate"` markdown links on `writing.html`, `book.html`, and `services.html`.
+- Strengthened `services.html` structured data by switching from a generic `LocalBusiness` shape to a `ProfessionalService` with an `OfferCatalog` of advisory services.
+
+Files touched:
+- `404.html`
+- `book.html`
+- `index.html`
+- `llms.txt`
+- `privacy-policy.html`
+- `services.html`
+- `sitemap.xml`
+- `terms-of-service.html`
+- `writing.html`
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+sed -n '1,220p' CHANGELOG_AI.md
+sed -n '1,220p' .ai/rules/agent-team-selection.md
+sed -n '1,260p' .ai/rules/ai-handoff.md
+sed -n '1,260p' /Users/jamestylee/Downloads/agent-scan-2026-05-13-2.md
+rg -n "about\\.md|writing\\.md|book\\.md|product\\.md|services|blog/|writing\\.html|book\\.html|privacy-policy\\.html|terms-of-service\\.html|rel=\\\"alternate\\\"|FAQPage|Person|Service" index.html services.html writing.html book.html privacy-policy.html terms-of-service.html 404.html
+rg -n '/writing\\.html|/book\\.html|/services\\.html|/privacy-policy\\.html|/terms-of-service\\.html|https://james\\.tyl\\.ee/(writing|book|services|privacy-policy|terms-of-service)\\.html|/blog/' index.html writing.html book.html services.html privacy-policy.html terms-of-service.html 404.html llms.txt sitemap.xml || true
+git diff --check
+xmllint --html --noout index.html
+xmllint --html --noout writing.html
+xmllint --html --noout book.html
+xmllint --html --noout services.html
+xmllint --html --noout privacy-policy.html
+xmllint --html --noout terms-of-service.html
+xmllint --html --noout 404.html
+git diff --stat -- index.html writing.html book.html services.html privacy-policy.html terms-of-service.html 404.html llms.txt sitemap.xml
+git status --short --branch
+git rev-parse --abbrev-ref HEAD
+git remote -v
+```
+
+Results:
+- Confirmed the edited HTML files are structurally valid with `xmllint`.
+- Confirmed no edited file still references redirected `.html` routes or the broken `/blog/` path.
+- Confirmed the sitemap now exposes the markdown companions directly and includes the services page.
+- Confirmed the services page now advertises a clearer service-oriented schema payload for training crawlers.
+
+Decisions made:
+- Kept the fix limited to discovery, routing, and schema signals instead of rewriting page copy or restructuring page layouts.
+- Added markdown links in visible HTML footers because the scan explicitly called out that llms-only discovery is too narrow for some crawlers.
+- Left unrelated untracked local files (`GEMINI.md`, `logos/tsm-logo_sm.png`) out of scope for this commit.
+
+Known issues:
+- I have not rerun the external LLM scan yet, so the score improvement still needs live verification after deployment.
+- Pages not touched in this pass may still contain legacy `.html` links if they were outside the scan-driven scope.
+
+Next recommended steps:
+- Commit and push these visibility updates, then rerun the external scan against production.
+- If the next scan still reports service-page weakness, add a second `WebPage`/`mainEntity` JSON-LD graph on `services.html` for even more explicit parser compatibility.
+
+Notes for next agent:
+- Commit only the edited site files and `CHANGELOG_AI.md`; do not include unrelated untracked files in the repo root or `logos/`.

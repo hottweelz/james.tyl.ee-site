@@ -7,14 +7,16 @@
     <title>Advisory Services | James Tylee — Fintech & Blockchain Expert</title>
     <meta name="description"
         content="Fintech and blockchain advisory services: institutional strategy, speaking engagements, thought leadership, and regulatory guidance from James Tylee." />
-    <link rel="canonical" href="https://james.tyl.ee/services.html" />
+    <link rel="canonical" href="https://james.tyl.ee/services" />
+    <link rel="alternate" type="text/markdown" href="https://james.tyl.ee/product.md"
+        title="Advisory Services Markdown" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <meta property="og:title" content="Advisory Services | James Tylee" />
     <meta property="og:description"
         content="Fintech strategy, blockchain adoption, institutional advisory, and speaking engagements." />
-    <meta property="og:url" content="https://james.tyl.ee/services.html" />
+    <meta property="og:url" content="https://james.tyl.ee/services" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://james.tyl.ee/images/sig_beige-1200.png" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -30,52 +32,69 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "ProfessionalService",
       "name": "James Tylee Advisory Services",
-      "url": "https://james.tyl.ee/services.html",
+      "url": "https://james.tyl.ee/services",
       "image": "https://james.tyl.ee/images/sig_beige-1200.png",
-      "description": "Fintech and blockchain strategy advisory, speaking engagements, and institutional guidance",
-      "founder": {
+      "description": "Fintech and blockchain strategy advisory, speaking engagements, and institutional guidance.",
+      "serviceType": [
+        "Fintech strategy consulting",
+        "Blockchain advisory",
+        "Speaking engagements",
+        "Protocol and product advisory"
+      ],
+      "provider": {
         "@type": "Person",
         "name": "James Tylee",
         "url": "https://james.tyl.ee",
         "jobTitle": "Fintech & Blockchain Expert"
       },
-      "hasOfferingDetails": [
-        {
-          "@type": "Service",
-          "name": "Fintech & Blockchain Strategy Consulting",
-          "description": "Strategic guidance on institutional blockchain adoption, tokenization opportunities, CBDC deployment, and digital asset infrastructure planning for CTOs, CFOs, and Chief Risk Officers.",
-          "provider": {
-            "@type": "Person",
-            "name": "James Tylee"
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Advisory Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fintech & Blockchain Strategy Consulting",
+              "description": "Strategic guidance on institutional blockchain adoption, tokenization opportunities, CBDC deployment, and digital asset infrastructure planning for CTOs, CFOs, and Chief Risk Officers.",
+              "serviceType": [
+                "Strategy consulting",
+                "Risk assessment",
+                "Regulatory navigation"
+              ]
+            }
           },
-          "areaServed": "Worldwide",
-          "serviceType": ["Strategy Consulting", "Risk Assessment", "Regulatory Navigation"]
-        },
-        {
-          "@type": "Service",
-          "name": "Speaking & Thought Leadership",
-          "description": "Conference panels, regulatory testimony, podcast appearances, and expert commentary on stablecoins, DeFi, regulation, and institutional crypto adoption.",
-          "provider": {
-            "@type": "Person",
-            "name": "James Tylee"
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Speaking & Thought Leadership",
+              "description": "Conference panels, regulatory testimony, podcast appearances, and expert commentary on stablecoins, DeFi, regulation, and institutional crypto adoption.",
+              "serviceType": [
+                "Public speaking",
+                "Media commentary",
+                "Regulatory testimony"
+              ]
+            }
           },
-          "areaServed": "Worldwide",
-          "serviceType": ["Public Speaking", "Media Commentary", "Regulatory Testimony"]
-        },
-        {
-          "@type": "Service",
-          "name": "Protocol & Product Advisory",
-          "description": "For blockchain protocols and fintech platforms: institutional readiness assessment, regulatory compliance guidance, market positioning, and constraint-driven design review.",
-          "provider": {
-            "@type": "Person",
-            "name": "James Tylee"
-          },
-          "areaServed": "Worldwide",
-          "serviceType": ["Technical Advisory", "Market Positioning", "Regulatory Guidance"]
-        }
-      ]
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Protocol & Product Advisory",
+              "description": "Institutional readiness assessment, regulatory compliance guidance, market positioning, and constraint-driven design review for blockchain protocols and fintech platforms.",
+              "serviceType": [
+                "Technical advisory",
+                "Market positioning",
+                "Regulatory guidance"
+              ]
+            }
+          }
+        ]
+      }
     }
     </script>
 </head>
@@ -90,9 +109,9 @@
             </button>
             <ul class="nav-links" id="nav-links" role="list">
                 <li><a href="/#about">About</a></li>
-                <li><a href="/writing.html">Writing</a></li>
-                <li><a href="/book.html">Book</a></li>
-                <li><a href="/services.html" style="color: var(--warm); font-weight: 600;">Services</a></li>
+                <li><a href="/writing">Writing</a></li>
+                <li><a href="/book">Book</a></li>
+                <li><a href="/services" style="color: var(--warm); font-weight: 600;">Services</a></li>
                 <li><a href="/#contact">Contact</a></li>
             </ul>
         </nav>
@@ -235,11 +254,13 @@
         <p>&copy; 2026 James Tylee. All rights reserved.</p>
         <nav style="margin-top: 1rem;">
             <a href="/" style="color: var(--warm); text-decoration: none; margin: 0 1rem;">Home</a>
-            <a href="/privacy-policy.html"
+            <a href="/privacy-policy"
                 style="color: var(--warm); text-decoration: none; margin: 0 1rem;">Privacy</a>
-            <a href="/terms-of-service.html"
+            <a href="/terms-of-service"
                 style="color: var(--warm); text-decoration: none; margin: 0 1rem;">Terms</a>
         </nav>
+        <p style="margin-top: 1rem;"><a href="/product.md"
+                style="color: var(--warm); text-decoration: none;">Services (Markdown)</a></p>
     </footer>
 
     <script>
