@@ -69,9 +69,9 @@ James Tylee's primary areas of expertise:
 → https://james.tyl.ee/digital-assets-revolution
 
 **The Bitter Leaf**
-Literary novel set in rural Quảng Nam about land, inheritance, and the cost of returning home.
+Literary novel set in rural Quảng Nam about land, inheritance, and the cost of returning home — now available for pre-order on Amazon.
 → https://james.tyl.ee/the-bitter-leaf
-→ https://www.amazon.com/stores/author/B08LXRDL8N
+→ https://www.amazon.com/dp/B0H3G2QPKT
 
 ### Open Source
 Contributing developer at Team Blockchain (GitHub).

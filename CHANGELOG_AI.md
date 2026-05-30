@@ -1,5 +1,79 @@
 # CHANGELOG_AI
 
+### 2026-05-30 19:02 EDT — Codex
+
+Task:
+- Update the site to show that `The Bitter Leaf` is available for pre-order now, using the Kindle Store URL provided by the user: `https://www.amazon.com/dp/B0H3G2QPKT`.
+
+Selected agent team:
+- Frontend Engineer: update visible HTML copy and CTA placement without breaking the static page flow.
+- Book Launch Coordinator: make the preorder status clear and launch-appropriate.
+- SEO Specialist: keep metadata, JSON-LD, and machine-readable discovery text aligned with the new preorder status.
+- Test Engineer: verify changed pages, structured data, local routes, and render checks.
+- Minimal Change Engineer: keep the diff scoped to `The Bitter Leaf` preorder messaging.
+
+Changes made:
+- Added `Pre-order now` status and Amazon preorder CTA to `the-bitter-leaf.html`.
+- Added preorder status, Amazon link, and JSON-LD `Offer` data for `The Bitter Leaf` on the books hub and detail page.
+- Updated homepage books copy and FAQ text to mention that `The Bitter Leaf` is available for pre-order.
+- Updated Markdown companions and LLM discovery text with the Amazon preorder URL.
+- Updated `about.md` so the canonical brand document points `The Bitter Leaf` to the new Amazon detail page instead of only the author profile.
+
+Files touched:
+- `CHANGELOG_AI.md`
+- `about.md`
+- `book.html`
+- `book.md`
+- `index.html`
+- `llms.txt`
+- `the-bitter-leaf.html`
+- `the-bitter-leaf.md`
+
+Commands/tests run:
+```bash
+git status --short --branch
+rg -n "Bitter Leaf|bitter-leaf|pre[- ]?order|coming soon|available|Kindle|Amazon|book" --glob '!CHANGELOG_AI.md'
+sed -n / nl -ba inspections of `book.html`, `the-bitter-leaf.html`, `index.html`, `about.md`, `book.md`, `the-bitter-leaf.md`, `llms.txt`, `sitemap.xml`, and `README.md`
+python3 inline parser — parsed `index.html`, `book.html`, and `the-bitter-leaf.html`; validated embedded JSON-LD
+rg -n "B0H3G2QPKT|Pre-order|pre-order|available for pre-order|Amazon" index.html book.html the-bitter-leaf.html book.md the-bitter-leaf.md about.md llms.txt
+git diff --check -- index.html book.html the-bitter-leaf.html book.md the-bitter-leaf.md about.md llms.txt
+python3 -m http.server 8024
+python3 inline urllib route check for `index.html`, `book.html`, `the-bitter-leaf.html`, `book.md`, `the-bitter-leaf.md`, and `llms.txt`
+npx playwright screenshot --viewport-size=390,900 http://localhost:8024/index.html /tmp/jt-index-preorder-mobile.png
+npx playwright screenshot --viewport-size=1440,1000 http://localhost:8024/the-bitter-leaf.html /tmp/jt-bitter-preorder-desktop.png
+npx playwright screenshot --viewport-size=390,2200 --full-page http://localhost:8024/index.html /tmp/jt-index-preorder-full-mobile.png
+curl -I -L --max-time 15 https://www.amazon.com/dp/B0H3G2QPKT
+npx wrangler deploy --dry-run
+git diff --stat
+```
+
+Results:
+- HTML parsing and JSON-LD validation passed for the changed HTML pages.
+- `git diff --check` passed.
+- Local served route checks returned 200 for the updated HTML, Markdown, and `llms.txt` files, and each contained the Amazon preorder URL where expected.
+- Playwright screenshots were captured for the homepage mobile view and `The Bitter Leaf` desktop detail page; the preorder CTA rendered without mobile overflow in the checked viewport.
+- Wrangler dry-run completed successfully, reading 2597 asset files and exiting without deployment.
+- Amazon returned HTTP 503 from CloudFront to the automated HEAD request, likely bot blocking; the user-provided Kindle Store URL was still used as the site target.
+
+Decisions made:
+- Used the exact Amazon detail URL provided by the user as the preorder destination.
+- Updated visible pages plus machine-readable companions/discovery files, but left older audit/source archive files alone.
+- Added Schema.org `Offer` data with `availability` set to `https://schema.org/PreOrder`.
+
+Known issues:
+- The in-app Browser surface was unavailable for this session (`iab` not available), so visual checks were done with local Playwright screenshots.
+- The Amazon automated HEAD check returned 503 from CloudFront.
+- Existing unrelated untracked files remain present and untouched: `GEMINI.md` and `logos/tsm-logo_sm.png`.
+
+Next recommended steps:
+- Review the local screenshots or served pages visually, then commit and push the preorder update when approved.
+- After deployment, verify public `https://james.tyl.ee/book` and `https://james.tyl.ee/the-bitter-leaf`.
+
+Notes for next agent:
+- The preorder URL is `https://www.amazon.com/dp/B0H3G2QPKT`.
+- Do not treat the Amazon 503 from `curl` as evidence that the user-provided storefront URL is invalid; Amazon commonly blocks automated HEAD requests.
+- Preserve the unrelated untracked files unless the user explicitly asks to handle them.
+
 ### 2026-05-30 14:22 EDT — Codex
 
 Task:

@@ -1,6 +1,6 @@
 ---
 title: The Bitter Leaf | James Tylee
-description: A literary novel set in rural Quang Nam about land, silence, inheritance, and the cost of returning home.
+description: A literary novel set in rural Quang Nam about land, silence, inheritance, and the cost of returning home. Available for pre-order on Amazon.
 url: https://james.tyl.ee/the-bitter-leaf
 datePublished: 2026-05-30
 dateModified: 2026-05-30
@@ -9,7 +9,8 @@ authorUrl: https://james.tyl.ee
 bookTitle: "The Bitter Leaf"
 genre: [Literary Fiction, Historical Fiction, Family Drama]
 topics: [Vietnam, Quang Nam, family, land, inheritance, wartime truth]
-status: active project
+status: available for pre-order
+preorderUrl: https://www.amazon.com/dp/B0H3G2QPKT
 ---
 
 # The Bitter Leaf
@@ -21,6 +22,8 @@ status: active project
 When Mai leaves her family's farm in rural Quảng Nam for a career in Hanoi, she tells herself it is ambition. Years later, a telegram pulls her home to a father quietly dying among the bitter leaf trees, a brother slipping into the crop they grow, and a district official who sees the farm as land before he sees it as inheritance.
 
 *The Bitter Leaf* is a novel about what we inherit: land, silence, and the slow weight of what was done before we were old enough to choose. It asks what it costs to stay, what it costs to leave, and whether roots can still hold when the soil shifts beneath them.
+
+*The Bitter Leaf* is available for pre-order now on Amazon: https://www.amazon.com/dp/B0H3G2QPKT
 
 ## Story Engines
 
@@ -37,3 +40,4 @@ This project sits in the lane of place-rooted literary fiction, family drama, an
 
 - Books hub: https://james.tyl.ee/book
 - HTML page: https://james.tyl.ee/the-bitter-leaf
+- Amazon pre-order: https://www.amazon.com/dp/B0H3G2QPKT
