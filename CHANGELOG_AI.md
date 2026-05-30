@@ -1,5 +1,60 @@
 # CHANGELOG_AI
 
+### 2026-05-30 19:09 EDT — Codex
+
+Task:
+- Commit and push the approved `The Bitter Leaf` preorder site update to GitHub.
+
+Selected agent team:
+- Git Workflow Master: stage, commit, and push the intended preorder scope cleanly.
+- Test Engineer: confirm preorder changes and structured data before publishing.
+- Minimal Change Engineer: keep unrelated untracked files out of the commit.
+
+Changes made:
+- Committed and pushed the preorder update from the prior handoff.
+- Recorded the push results in this handoff entry.
+
+Files touched:
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+```bash
+git status --short --branch
+git rev-list --left-right --count HEAD...origin/main
+git diff --check -- CHANGELOG_AI.md about.md book.html book.md index.html llms.txt the-bitter-leaf.html the-bitter-leaf.md
+python3 inline parser — parsed `index.html`, `book.html`, and `the-bitter-leaf.html`; validated embedded JSON-LD
+rg -n "B0H3G2QPKT|Pre-order|pre-order|available for pre-order|Amazon" index.html book.html the-bitter-leaf.html book.md the-bitter-leaf.md about.md llms.txt
+git add CHANGELOG_AI.md about.md book.html book.md index.html llms.txt the-bitter-leaf.html the-bitter-leaf.md
+git diff --cached --stat
+git diff --cached --name-only
+git commit -m "feat: add Bitter Leaf preorder links"
+git push origin main
+```
+
+Results:
+- Branch was even with `origin/main` before committing (`0 0`).
+- `git diff --check` passed.
+- HTML and embedded JSON-LD parsing passed for the changed HTML pages.
+- Preorder URL/status checks found the expected Amazon URL in the intended public and machine-readable files.
+- Committed `4a9a05f` with message `feat: add Bitter Leaf preorder links`.
+- Pushed `main` to GitHub: `9802823..4a9a05f`.
+- Local branch was synced with `origin/main` after the push (`0 0`).
+
+Decisions made:
+- Pushed directly to `main`, matching the recent repository workflow and the user's explicit "push to git" request.
+- Staged only the preorder update files and `CHANGELOG_AI.md`.
+
+Known issues:
+- Existing unrelated untracked files remain present and untouched: `GEMINI.md` and `logos/tsm-logo_sm.png`.
+
+Next recommended steps:
+- After deployment completes, verify public `https://james.tyl.ee/book` and `https://james.tyl.ee/the-bitter-leaf` show the preorder copy and Amazon CTA.
+
+Notes for next agent:
+- Latest content commit before this handoff entry is `4a9a05f`.
+- The preorder URL is `https://www.amazon.com/dp/B0H3G2QPKT`.
+- Preserve unrelated untracked files unless the user explicitly asks to handle them.
+
 ### 2026-05-30 19:02 EDT — Codex
 
 Task:
