@@ -1,5 +1,59 @@
 # CHANGELOG_AI
 
+### 2026-05-30 14:22 EDT — Codex
+
+Task:
+- Record the completed GitHub push and post-deploy public route verification.
+
+Selected agent team:
+- Git Workflow Master: confirm commit/push state.
+- Test Engineer: verify public book routes after deployment.
+
+Changes made:
+- Recorded the final push and public verification results.
+
+Files touched:
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+```bash
+git commit -m "fix: repair books section links"
+git push origin main
+git status --short --branch
+git rev-list --left-right --count HEAD...origin/main
+curl -I -L https://james.tyl.ee/book
+curl -I -L https://james.tyl.ee/book.html
+curl -I -L https://james.tyl.ee/digital-assets-revolution
+curl -I -L https://james.tyl.ee/digital-assets-revolution.html
+curl -I -L https://james.tyl.ee/the-bitter-leaf
+curl -I -L https://james.tyl.ee/the-bitter-leaf.html
+curl public route checks with `?cb=9af5abc`
+```
+
+Results:
+- Committed `9af5abc` with message `fix: repair books section links`.
+- Pushed `main` to GitHub: `b25d93f..9af5abc`.
+- Local branch is synced with `origin/main` (`0 0`).
+- Public route verification passed after deploy:
+  - `https://james.tyl.ee/book` → 200
+  - `https://james.tyl.ee/digital-assets-revolution` → 200
+  - `https://james.tyl.ee/digital-assets-revolution.html` → 307 to `/digital-assets-revolution`
+  - `https://james.tyl.ee/the-bitter-leaf` → 200
+  - `https://james.tyl.ee/the-bitter-leaf.html` → 307 to `/the-bitter-leaf`
+
+Decisions made:
+- Left unrelated untracked files out of the commit: `GEMINI.md` and `logos/tsm-logo_sm.png`.
+- Added this follow-up handoff entry after the initial push so the ledger reflects the actual public verification.
+
+Known issues:
+- `gh` is not installed locally, and GitHub's unauthenticated Actions API was rate-limited from this network, so deploy verification was done by checking the public routes directly.
+
+Next recommended steps:
+- Review the public book pages visually in a browser.
+
+Notes for next agent:
+- The books routes are now live publicly; if regressions appear, start with `book.html`, `digital-assets-revolution.html`, and `the-bitter-leaf.html`.
+
 ### 2026-05-30 14:19 EDT — Codex
 
 Task:
