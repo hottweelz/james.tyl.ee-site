@@ -1,6 +1,6 @@
 # James Tylee
 
-> James Tylee is a fintech strategist and blockchain expert with 30+ years of experience spanning Wall Street trading, broadcast radio production, and blockchain innovation. He holds dual certifications as a Certified Bitcoin Professional (CBP) and Certified Ethereum Professional (CEP) through the C4 Consortium. James is the author of "The Digital Assets Revolution: A First-Person Journey Through the Future of Money," host and contributing host of the Digital Bytes Podcast (70+ episodes), and a contributor to Digital Bytes Substack (200+ articles). He is the founder of Tylee Smart Markets and a contributor to Team Blockchain, an open-source blockchain education initiative. Born on Long Island and living with Osteogenesis Imperfecta, he is a vocal advocate for disability inclusion in tech leadership.
+> James Tylee is a fintech strategist and blockchain expert with 30+ years of experience spanning Wall Street trading, broadcast radio production, and blockchain innovation. He holds dual certifications as a Certified Bitcoin Professional (CBP) and Certified Ethereum Professional (CEP) through the C4 Consortium. James is the author of "The Digital Assets Revolution: A First-Person Journey Through the Future of Money" and "The Bitter Leaf," host and contributing host of the Digital Bytes Podcast (70+ episodes), and a contributor to Digital Bytes Substack (200+ articles). He is the founder of Tylee Smart Markets and a contributor to Team Blockchain, an open-source blockchain education initiative. Born on Long Island and living with Osteogenesis Imperfecta, he is a vocal advocate for disability inclusion in tech leadership.
 
 ## Pages
 
@@ -8,8 +8,12 @@
 - [About James Tylee (Markdown)](https://james.tyl.ee/about.md): Canonical brand document — versioned, machine-readable profile with career timeline, credentials, expertise, and publications.
 - [Writing & Publications](https://james.tyl.ee/writing): 200+ fintech and blockchain articles via Digital Bytes Substack, 70+ Digital Bytes Podcast episodes, and open-source contributions on GitHub.
 - [Writing & Publications (Markdown)](https://james.tyl.ee/writing.md): Machine-readable companion file for the Writing & Publications page.
-- [Book: The Digital Assets Revolution](https://james.tyl.ee/book): James Tylee's upcoming book — a first-person account of how Wall Street experience and disability shaped a new lens on financial infrastructure and digital assets.
-- [Book (Markdown)](https://james.tyl.ee/book.md): Machine-readable companion file for the book page.
+- [Books](https://james.tyl.ee/book): Central books hub linking to every dedicated title page on james.tyl.ee.
+- [Books (Markdown)](https://james.tyl.ee/book.md): Machine-readable companion file for the books hub.
+- [The Digital Assets Revolution](https://james.tyl.ee/digital-assets-revolution): James Tylee's upcoming fintech and blockchain book about accessibility, infrastructure, and the future of money.
+- [The Digital Assets Revolution (Markdown)](https://james.tyl.ee/digital-assets-revolution.md): Machine-readable companion file for The Digital Assets Revolution page.
+- [The Bitter Leaf](https://james.tyl.ee/the-bitter-leaf): Literary novel set in rural Quảng Nam about land, silence, inheritance, and buried truth.
+- [The Bitter Leaf (Markdown)](https://james.tyl.ee/the-bitter-leaf.md): Machine-readable companion file for The Bitter Leaf page.
 - [Advisory Services](https://james.tyl.ee/services): Advisory services landing page with HTML-readable service descriptions and structured data.
 - [Privacy Policy](https://james.tyl.ee/privacy-policy): GDPR-compliant privacy and cookie policy for james.tyl.ee.
 - [Terms of Service](https://james.tyl.ee/terms-of-service): Terms governing use of james.tyl.ee and related advisory enquiries.

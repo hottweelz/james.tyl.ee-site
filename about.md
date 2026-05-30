@@ -3,7 +3,7 @@ title: About James Tylee — Fintech & Blockchain Expert
 description: Canonical brand document for James Tylee. Fintech strategist since 1995, Certified Bitcoin & Ethereum Professional, author, podcast host, and disability advocate.
 url: https://james.tyl.ee/about.md
 datePublished: 2026-04-04
-dateModified: 2026-04-04
+dateModified: 2026-05-30
 version: "1.0"
 schema: Person
 sameAs:
@@ -63,9 +63,14 @@ James Tylee's primary areas of expertise:
 70+ episodes co-hosted with Jonny Fry (TeamBlockchain Ltd). Available on Spotify.
 → https://open.spotify.com/show/0wxqlnCDOlk5NXiEtaJYKr
 
-### Book: The Digital Assets Revolution
+### Books
+**The Digital Assets Revolution**
 *A First-Person Journey Through the Future of Money* — upcoming, pre-order on Amazon.
-→ https://james.tyl.ee/book.html
+→ https://james.tyl.ee/digital-assets-revolution
+
+**The Bitter Leaf**
+Literary novel set in rural Quảng Nam about land, inheritance, and the cost of returning home.
+→ https://james.tyl.ee/the-bitter-leaf
 → https://www.amazon.com/stores/author/B08LXRDL8N
 
 ### Open Source

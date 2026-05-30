@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Digital Assets Revolution by James Tylee. A first-person journey through Wall Street, accessibility, blockchain, and the future of money.">
+    <link rel="canonical" href="https://james.tyl.ee/digital-assets-revolution">
+    <link rel="alternate" type="text/markdown" href="https://james.tyl.ee/digital-assets-revolution.md"
+        title="The Digital Assets Revolution Markdown">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta property="og:title" content="The Digital Assets Revolution | James Tylee">
+    <meta property="og:description"
+        content="Wall Street experience, disability, and the infrastructure redesign that changes how money moves.">
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://james.tyl.ee/digital-assets-revolution">
+    <meta property="og:image" content="https://james.tyl.ee/images/sig_beige-1200.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Digital Assets Revolution | James Tylee">
+    <meta name="twitter:description"
+        content="Wall Street experience, disability, and the infrastructure redesign that changes how money moves.">
+    <meta name="twitter:image" content="https://james.tyl.ee/images/sig_beige-1200.png">
+
+    <title>The Digital Assets Revolution | James Tylee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .dar-page {
+            --dar-primary: #8b4513;
+            --dar-secondary: #c57d2d;
+            --dar-surface: rgba(255, 255, 255, 0.84);
+            background:
+                radial-gradient(circle at top right, rgba(197, 125, 45, 0.22), transparent 24rem),
+                linear-gradient(180deg, #f6efe5 0%, #f2e7d9 100%);
+        }
+
+        .dar-hero {
+            padding: 5rem 2rem 4rem;
+            background: linear-gradient(135deg, rgba(24, 18, 13, 0.98) 0%, rgba(96, 54, 25, 0.95) 60%, rgba(162, 92, 35, 0.94) 100%);
+            color: #fff;
+        }
+
+        .dar-hero-inner,
+        .dar-main,
+        .dar-footer {
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+
+        .dar-breadcrumb {
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 0.88rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .dar-breadcrumb a {
+            color: #f5d8aa;
+        }
+
+        .dar-hero-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+            gap: 2rem;
+            align-items: start;
+            margin-top: 1.25rem;
+        }
+
+        .dar-hero-copy h1 {
+            font-size: 3.4rem;
+            margin-bottom: 0.9rem;
+        }
+
+        .dar-hero-copy .subtitle {
+            font-size: 1.28rem;
+            color: #f1d5a7;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .dar-hero-copy .tagline {
+            max-width: 700px;
+            color: rgba(255, 255, 255, 0.88);
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .dar-actions {
+            display: flex;
+            gap: 0.9rem;
+            flex-wrap: wrap;
+            margin-top: 1.75rem;
+        }
+
+        .dar-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            padding: 1rem 1.2rem;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+
+        .dar-button.primary {
+            background: #f0e2cb;
+            color: #3b2718;
+        }
+
+        .dar-button.secondary {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: #fff;
+        }
+
+        .dar-status {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            border-radius: 10px;
+            padding: 1.35rem;
+        }
+
+        .dar-status h2 {
+            font-size: 1.05rem;
+            margin-bottom: 0.85rem;
+        }
+
+        .dar-status ul {
+            list-style: none;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .dar-status li {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .dar-main {
+            padding: 3rem 2rem 5rem;
+        }
+
+        .dar-quote,
+        .dar-panel,
+        .dar-author,
+        .dar-callout {
+            max-width: 960px;
+            margin: 0 auto 2rem;
+        }
+
+        .dar-quote {
+            background: linear-gradient(135deg, #8a5326, #5a3115);
+            color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 18px 34px rgba(58, 29, 10, 0.14);
+        }
+
+        .dar-quote blockquote {
+            font-size: 1.5rem;
+            line-height: 1.7;
+            font-family: var(--ff-head);
+        }
+
+        .dar-quote cite {
+            display: block;
+            margin-top: 0.85rem;
+            color: rgba(255, 255, 255, 0.82);
+        }
+
+        .dar-panel {
+            background: var(--dar-surface);
+            border: 1px solid rgba(139, 69, 19, 0.18);
+            border-radius: 8px;
+            padding: 2rem;
+            backdrop-filter: blur(8px);
+        }
+
+        .dar-panel h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .dar-panel p,
+        .dar-author p,
+        .dar-callout p {
+            color: var(--muted);
+            line-height: 1.85;
+            margin-bottom: 1rem;
+        }
+
+        .dar-topics {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 0.8rem;
+        }
+
+        .dar-topic {
+            background: #f3e7d5;
+            color: #5d391e;
+            border-radius: 999px;
+            text-align: center;
+            padding: 0.55rem 0.8rem;
+            font-size: 0.86rem;
+        }
+
+        .dar-chapters {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .dar-chapter {
+            background: rgba(255, 255, 255, 0.86);
+            border: 1px solid rgba(139, 69, 19, 0.14);
+            border-left: 4px solid var(--dar-primary);
+            border-radius: 6px;
+            padding: 1.15rem 1.2rem;
+        }
+
+        .dar-chapter h3 {
+            font-size: 1.08rem;
+            margin-bottom: 0.45rem;
+            color: var(--dar-primary);
+        }
+
+        .dar-author {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .dar-author-card {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(139, 69, 19, 0.14);
+            border-radius: 6px;
+            padding: 1rem;
+        }
+
+        .dar-author-card strong {
+            display: block;
+            margin-bottom: 0.4rem;
+            color: var(--ink);
+        }
+
+        .dar-callout {
+            background: #f5ecde;
+            border: 1px solid rgba(139, 69, 19, 0.18);
+            border-radius: 8px;
+            padding: 1.8rem 2rem;
+        }
+
+        @media (max-width: 960px) {
+            .dar-hero-grid,
+            .dar-topics,
+            .dar-author {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dar-hero {
+                padding: 4rem 1.5rem 3rem;
+            }
+
+            .dar-main {
+                padding: 2.25rem 1.5rem 4rem;
+            }
+
+            .dar-hero-copy h1 {
+                font-size: 2.6rem;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "The Digital Assets Revolution: A First-Person Journey Through the Future of Money",
+        "author": {
+            "@type": "Person",
+            "name": "James Tylee",
+            "url": "https://james.tyl.ee",
+            "sameAs": ["https://www.linkedin.com/in/jtylee", "https://www.amazon.com/stores/author/B08LXRDL8N"]
+        },
+        "description": "A first-person book on financial infrastructure, blockchain, accessibility, and the future of money — by James Tylee, a 30-year Wall Street veteran and blockchain expert.",
+        "url": "https://james.tyl.ee/digital-assets-revolution",
+        "image": "https://james.tyl.ee/images/sig_beige-1200.png",
+        "genre": ["Finance", "Technology", "Blockchain", "Personal Narrative"],
+        "keywords": ["digital assets", "blockchain", "stablecoins", "financial infrastructure", "accessibility", "Wall Street", "fintech", "DeFi", "Bitcoin", "Ethereum"],
+        "inLanguage": "en",
+        "bookFormat": "https://schema.org/Hardcover",
+        "datePublished": "2026-01-01",
+        "dateModified": "2026-05-30",
+        "about": [
+            {"@type": "Thing", "name": "Blockchain technology"},
+            {"@type": "Thing", "name": "Financial inclusion"},
+            {"@type": "Thing", "name": "Digital assets"},
+            {"@type": "Thing", "name": "Disability and finance"}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Books", "item": "https://james.tyl.ee/book"},
+            {"@type": "ListItem", "position": 2, "name": "The Digital Assets Revolution", "item": "https://james.tyl.ee/digital-assets-revolution"}
+        ]
+    }
+    </script>
+</head>
+
+<body class="dar-page">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div id="privacy-popup" class="privacy-popup hidden">
+        <div class="privacy-popup-content">
+            <button id="privacy-close" class="privacy-popup-close" aria-label="Close privacy popup">×</button>
+            <h3>Privacy & Cookies</h3>
+            <p>We use Google Analytics and other tools to understand how you use this site. By continuing, you agree to
+                our <a href="/privacy-policy" target="_blank">Privacy Policy</a> and cookie usage.</p>
+            <div class="privacy-popup-buttons">
+                <button id="privacy-accept" class="privacy-btn-accept">Accept</button>
+                <a href="/privacy-policy" target="_blank" class="privacy-btn-learn">Read Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <header id="top">
+        <nav class="nav-inner" aria-label="Primary navigation">
+            <a href="/" class="nav-logo">James <span>Tylee</span></a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links" role="list">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/writing">Writing</a></li>
+                <li><a href="book.html">Books</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/#hobbies">Deep Thoughts</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="dar-hero">
+            <div class="dar-hero-inner">
+                <nav aria-label="Breadcrumb" class="dar-breadcrumb">
+                    <ol style="list-style:none;padding:0;display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
+                        <li><a href="book.html">Books</a></li>
+                        <li aria-hidden="true">/</li>
+                        <li aria-current="page">The Digital Assets Revolution</li>
+                    </ol>
+                </nav>
+                <div class="dar-hero-grid">
+                    <div class="dar-hero-copy">
+                        <h1>The Digital Assets Revolution</h1>
+                        <p class="subtitle">A First-Person Journey Through the Future of Money</p>
+                        <p style="font-size: 0.88rem; color: rgba(255,255,255,0.68); margin-bottom: 1rem;"><time
+                                datetime="2026-05-30">Last updated: May 30, 2026</time></p>
+                        <p class="tagline">Disability, Wall Street, and the infrastructure redesign that changes
+                            everything. This book argues that the clearest view of financial systems comes from the
+                            people they failed to design for first.</p>
+                        <div class="dar-actions">
+                            <span class="dar-button primary"><i class="fas fa-clock" aria-hidden="true"></i> Pre-order
+                                coming soon</span>
+                            <a href="book.html" class="dar-button secondary"><i class="fas fa-book-open"
+                                    aria-hidden="true"></i> Back to books</a>
+                        </div>
+                    </div>
+                    <aside class="dar-status">
+                        <h2>Launch snapshot</h2>
+                        <ul>
+                            <li><strong>Status:</strong> Upcoming</li>
+                            <li><strong>Lane:</strong> Fintech and blockchain nonfiction</li>
+                            <li><strong>Core thesis:</strong> Build for the constrained user first</li>
+                            <li><strong>Audience:</strong> Readers tracking stablecoins, tokenization, and resilient
+                                financial infrastructure</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="dar-main">
+            <div class="dar-quote">
+                <blockquote>"If you build for the person with constraints, you end up with a system that works better
+                    for everyone."</blockquote>
+                <cite>- James Tylee, <em>The Digital Assets Revolution</em></cite>
+            </div>
+
+            <section class="dar-panel">
+                <p class="section-label">Overview</p>
+                <h2>What this book is about</h2>
+                <p>I was born to be the underdog. Not by choice. But once I realized I had beaten the competition in
+                    one of the most severe situations possible, I understood I could take on anything else.</p>
+                <p>This book is about financial infrastructure: how money moves, how stablecoins and digital assets
+                    work, and how systems succeed or fail. Underneath that, it is about what you learn when you are
+                    forced to see systems from the outside, from the position of the person they were never built for.
+                </p>
+                <p>James Tylee spent three decades on Wall Street at Bloomberg, Merrill Lynch, and Bank of America
+                    while also navigating his entire life in a wheelchair. Those experiences are not separate. They are
+                    the same lens applied to different systems, and together they produce a new argument about the
+                    future of money.</p>
+            </section>
+
+            <section class="dar-panel">
+                <p class="section-label">Core Themes</p>
+                <h2>Where the argument goes</h2>
+                <div class="dar-topics">
+                    <div class="dar-topic">Disability and finance</div>
+                    <div class="dar-topic">Wall Street history</div>
+                    <div class="dar-topic">Blockchain design</div>
+                    <div class="dar-topic">Stablecoins</div>
+                    <div class="dar-topic">Tokenization</div>
+                    <div class="dar-topic">Accessibility-first systems</div>
+                    <div class="dar-topic">Global finance</div>
+                    <div class="dar-topic">Infrastructure resilience</div>
+                </div>
+            </section>
+
+            <section class="dar-panel">
+                <p class="section-label">What You Will Learn</p>
+                <h2>Section-by-section preview</h2>
+                <div class="dar-chapters">
+                    <article class="dar-chapter">
+                        <h3><i class="fas fa-chair" aria-hidden="true"></i> Chapter 1: The World Wasn't Built for Me
+                        </h3>
+                        <p>How disability taught James Tylee to see financial infrastructure gaps and why regulatory
+                            fear in the United States became its own self-fulfilling prophecy in blockchain.</p>
+                    </article>
+                    <article class="dar-chapter">
+                        <h3><i class="fas fa-lightbulb" aria-hidden="true"></i> Chapter 2: What Constraint Teaches You
+                        </h3>
+                        <p>From Bloomberg to Merrill Lynch to UBS, this chapter connects career formation with the
+                            principle that redundancy and alternatives are not luxuries. They are how durable systems
+                            are built.</p>
+                    </article>
+                    <article class="dar-chapter">
+                        <h3><i class="fas fa-network-wired" aria-hidden="true"></i> Chapter 3: Single Points of
+                            Failure</h3>
+                        <p>The 2008 crisis, the 2010 flash crash, and the brittle architecture underneath traditional
+                            finance become the case for a different kind of infrastructure.</p>
+                    </article>
+                    <article class="dar-chapter">
+                        <h3><i class="fas fa-cube" aria-hidden="true"></i> Chapters 4-8: The Blockchain Path</h3>
+                        <p>Stablecoins, property-backed currency, tokenization, music-rights infrastructure, and the
+                            global shape of digital assets all feed into the larger redesign argument.</p>
+                    </article>
+                </div>
+            </section>
+
+            <div class="dar-quote">
+                <blockquote>"The bull never moved. We just finally stopped being afraid of it."</blockquote>
+                <cite>- On regulatory misunderstanding and misplaced fear</cite>
+            </div>
+
+            <section class="dar-panel dar-author">
+                <article class="dar-author-card">
+                    <strong>Wall Street</strong>
+                    <span>30+ years across Bloomberg, Merrill Lynch, and Bank of America</span>
+                </article>
+                <article class="dar-author-card">
+                    <strong>Blockchain</strong>
+                    <span>Digital assets strategy, protocol advisory, and infrastructure design</span>
+                </article>
+                <article class="dar-author-card">
+                    <strong>Media</strong>
+                    <span>200+ articles and 70+ podcast episodes</span>
+                </article>
+                <article class="dar-author-card">
+                    <strong>Accessibility</strong>
+                    <span>Constraint-driven design as a systems thesis, not a slogan</span>
+                </article>
+            </section>
+
+            <section class="dar-callout">
+                <p class="section-label">Stay Connected</p>
+                <h2>Follow the work as it develops.</h2>
+                <p>James Tylee publishes 200+ articles on fintech and blockchain at <a href="https://digitalbytes.substack.com" target="_blank" rel="noopener noreferrer" style="color:var(--dar-primary);text-decoration:underline;">Digital Bytes Substack</a>, and hosts 70+ podcast episodes exploring the same ideas in conversation. For speaking engagements, advisory work, or media inquiries, visit the <a href="/services" style="color:var(--dar-primary);text-decoration:underline;">services page</a> or reach out directly at <a href="mailto:james@tyl.ee" style="color:var(--dar-primary);text-decoration:underline;">james@tyl.ee</a>.</p>
+            </section>
+        </section>
+    </main>
+
+    <footer class="dar-footer">
+        <p>Designed &amp; built by <span>James Tylee</span> · 2026</p>
+        <p class="footer-links"><a href="/writing">Writing</a> · <a href="book.html">Books</a> · <a
+                href="the-bitter-leaf.html">The Bitter Leaf</a> · <a href="/privacy-policy">Privacy Policy</a> · <a
+                href="/terms-of-service">Terms of Service</a> · <a href="/">Back to Home</a></p>
+        <p class="footer-links"><a href="digital-assets-revolution.md">The Digital Assets Revolution (Markdown)</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

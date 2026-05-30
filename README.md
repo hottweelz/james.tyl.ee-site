@@ -4,7 +4,7 @@ Public source repository for [james.tyl.ee](https://james.tyl.ee), the personal 
 
 ## Entity
 
-**James Tylee** is a Wall Street veteran with 30+ years of experience across the US Treasury's Internal Revenue Service, Bloomberg, Merrill Lynch, and Bank of America. He holds dual certifications as a Certified Bitcoin Professional (CBP) and Certified Ethereum Professional (CEP) through the C4 Consortium. He is the author of *The Digital Assets Revolution: A First-Person Journey Through the Future of Money*, co-host of the Digital Bytes Podcast (70+ episodes), and a contributor to Digital Bytes Substack (200+ articles). He is the founder of Tylee Smart Markets and a vocal advocate for disability inclusion in tech and finance leadership.
+**James Tylee** is a Wall Street veteran with 30+ years of experience across the US Treasury's Internal Revenue Service, Bloomberg, Merrill Lynch, and Bank of America. He holds dual certifications as a Certified Bitcoin Professional (CBP) and Certified Ethereum Professional (CEP) through the C4 Consortium. He is the author of *The Digital Assets Revolution: A First-Person Journey Through the Future of Money* and *The Bitter Leaf*, co-host of the Digital Bytes Podcast (70+ episodes), and a contributor to Digital Bytes Substack (200+ articles). He is the founder of Tylee Smart Markets and a vocal advocate for disability inclusion in tech and finance leadership.
 
 ## Site Structure
 
@@ -13,12 +13,16 @@ Public source repository for [james.tyl.ee](https://james.tyl.ee), the personal 
 | `index.html` | Homepage — biography, credentials, FAQ, and contact |
 | `about.md` | Canonical versioned brand document (machine-readable) |
 | `writing.md` | Writing & publications companion file |
-| `book.md` | Book page companion file |
+| `book.md` | Books hub companion file |
+| `digital-assets-revolution.md` | Dedicated markdown companion for The Digital Assets Revolution |
+| `the-bitter-leaf.md` | Dedicated markdown companion for The Bitter Leaf |
 | `product.md` | Advisory services companion file |
 | `llms.txt` | AI agent discovery file — structured site summary for LLM retrieval |
 | `robots.txt` | Crawler directives including explicit AI bot allow rules |
 | `sitemap.xml` | XML sitemap for search engine and AI crawler discovery |
-| `book.html` | Book landing page |
+| `book.html` | Books hub landing page |
+| `digital-assets-revolution.html` | Dedicated landing page for The Digital Assets Revolution |
+| `the-bitter-leaf.html` | Dedicated landing page for The Bitter Leaf |
 | `writing.html` | Writing & publications page |
 | `privacy-policy.html` | GDPR-compliant privacy policy |
 | `terms-of-service.html` | Terms of service |

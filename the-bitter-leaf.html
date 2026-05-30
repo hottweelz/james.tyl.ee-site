@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Bitter Leaf by James Tylee. A literary novel set in rural Quang Nam about land, silence, inheritance, and the cost of returning home.">
+    <link rel="canonical" href="https://james.tyl.ee/the-bitter-leaf">
+    <link rel="alternate" type="text/markdown" href="https://james.tyl.ee/the-bitter-leaf.md"
+        title="The Bitter Leaf Markdown">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta property="og:title" content="The Bitter Leaf | James Tylee">
+    <meta property="og:description"
+        content="A literary novel set in rural Quang Nam about land, silence, inheritance, and the cost of returning home.">
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://james.tyl.ee/the-bitter-leaf">
+    <meta property="og:image" content="https://james.tyl.ee/images/books/the-bitter-leaf-cover.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Bitter Leaf | James Tylee">
+    <meta name="twitter:description"
+        content="A literary novel set in rural Quang Nam about land, silence, inheritance, and the cost of returning home.">
+    <meta name="twitter:image" content="https://james.tyl.ee/images/books/the-bitter-leaf-cover.jpg">
+
+    <title>The Bitter Leaf | James Tylee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .bitter-leaf-page {
+            --leaf-ink: #182015;
+            --leaf-primary: #446637;
+            --leaf-secondary: #789c5c;
+            --leaf-muted: #53604a;
+            background:
+                radial-gradient(circle at top left, rgba(120, 156, 92, 0.2), transparent 25rem),
+                linear-gradient(180deg, #f4f0e5 0%, #e9eddc 100%);
+        }
+
+        .bl-hero {
+            padding: 5rem 2rem 4rem;
+            background: linear-gradient(135deg, rgba(20, 28, 17, 0.98) 0%, rgba(53, 81, 43, 0.95) 55%, rgba(94, 125, 71, 0.92) 100%);
+            color: #fff;
+        }
+
+        .bl-hero-inner,
+        .bl-main,
+        .bl-footer {
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+
+        .bl-breadcrumb {
+            color: rgba(255, 255, 255, 0.76);
+            font-size: 0.88rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .bl-breadcrumb a {
+            color: #dfecc9;
+        }
+
+        .bl-hero-grid {
+            display: grid;
+            grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+            gap: 2rem;
+            align-items: center;
+            margin-top: 1.25rem;
+        }
+
+        .bl-cover-wrap {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 24px 48px rgba(8, 14, 7, 0.28);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .bl-cover-wrap img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .bl-hero-copy h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.9rem;
+        }
+
+        .bl-hero-copy .subtitle {
+            font-size: 1.15rem;
+            color: #dfecc9;
+            margin-bottom: 1rem;
+        }
+
+        .bl-hero-copy .summary {
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.82;
+            font-size: 1.05rem;
+            max-width: 680px;
+        }
+
+        .bl-meta-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.7rem;
+            margin: 1.4rem 0 1.6rem;
+        }
+
+        .bl-pill {
+            padding: 0.42rem 0.78rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            font-size: 0.84rem;
+        }
+
+        .bl-actions {
+            display: flex;
+            gap: 0.9rem;
+            flex-wrap: wrap;
+        }
+
+        .bl-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            padding: 1rem 1.2rem;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+
+        .bl-button.primary {
+            background: #eff5e0;
+            color: #24321d;
+        }
+
+        .bl-button.secondary {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: #fff;
+        }
+
+        .bl-main {
+            padding: 3rem 2rem 5rem;
+        }
+
+        .bl-section,
+        .bl-quote,
+        .bl-excerpt {
+            max-width: 960px;
+            margin: 0 auto 2rem;
+        }
+
+        .bl-section {
+            background: rgba(255, 255, 255, 0.82);
+            border: 1px solid rgba(68, 102, 55, 0.14);
+            border-radius: 8px;
+            padding: 2rem;
+            backdrop-filter: blur(8px);
+        }
+
+        .bl-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .bl-section p,
+        .bl-excerpt p {
+            color: var(--leaf-muted);
+            line-height: 1.85;
+            margin-bottom: 1rem;
+        }
+
+        .bl-story-grid,
+        .bl-signal-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .bl-story-card,
+        .bl-signal-card {
+            background: rgba(245, 249, 239, 0.96);
+            border: 1px solid rgba(68, 102, 55, 0.14);
+            border-radius: 6px;
+            padding: 1.15rem;
+        }
+
+        .bl-story-card h3,
+        .bl-signal-card h3 {
+            font-size: 1.05rem;
+            margin-bottom: 0.45rem;
+            color: var(--leaf-ink);
+        }
+
+        .bl-story-card p,
+        .bl-signal-card p {
+            margin: 0;
+            color: var(--leaf-muted);
+            line-height: 1.7;
+        }
+
+        .bl-quote {
+            background: linear-gradient(135deg, #38542d, #203018);
+            color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 18px 34px rgba(14, 24, 11, 0.16);
+        }
+
+        .bl-quote blockquote {
+            font-size: 1.5rem;
+            line-height: 1.7;
+            font-family: var(--ff-head);
+        }
+
+        .bl-quote cite {
+            display: block;
+            margin-top: 0.8rem;
+            color: rgba(255, 255, 255, 0.82);
+        }
+
+        .bl-excerpt {
+            background: #f5f8ee;
+            border-left: 4px solid var(--leaf-primary);
+            border-radius: 6px;
+            padding: 2rem;
+        }
+
+        .bl-excerpt h2 {
+            font-size: 1.75rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .bl-excerpt p:last-child,
+        .bl-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 960px) {
+            .bl-hero-grid,
+            .bl-story-grid,
+            .bl-signal-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .bl-hero {
+                padding: 4rem 1.5rem 3rem;
+            }
+
+            .bl-main {
+                padding: 2.25rem 1.5rem 4rem;
+            }
+
+            .bl-hero-copy h1 {
+                font-size: 2.7rem;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "The Bitter Leaf",
+        "author": {
+            "@type": "Person",
+            "name": "James Tylee",
+            "url": "https://james.tyl.ee",
+            "sameAs": ["https://www.linkedin.com/in/jtylee", "https://www.amazon.com/stores/author/B08LXRDL8N"]
+        },
+        "description": "A literary novel set in rural Quảng Nam about land, silence, inheritance, and the cost of returning home — by James Tylee.",
+        "url": "https://james.tyl.ee/the-bitter-leaf",
+        "image": "https://james.tyl.ee/images/books/the-bitter-leaf-cover.jpg",
+        "genre": ["Literary Fiction", "Historical Fiction", "Family Drama"],
+        "keywords": ["Vietnam novel", "Quang Nam", "Quảng Nam", "family drama", "land rights", "literary fiction", "Doi Moi", "rural Vietnam", "Vietnamese fiction"],
+        "inLanguage": "en",
+        "bookFormat": "https://schema.org/Paperback",
+        "datePublished": "2026-05-30",
+        "dateModified": "2026-05-30",
+        "about": [
+            {"@type": "Thing", "name": "Vietnam"},
+            {"@type": "Thing", "name": "Family inheritance"},
+            {"@type": "Thing", "name": "Rural life"},
+            {"@type": "Thing", "name": "Land rights"}
+        ],
+        "locationCreated": {"@type": "Place", "name": "Quảng Nam, Vietnam"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Books", "item": "https://james.tyl.ee/book"},
+            {"@type": "ListItem", "position": 2, "name": "The Bitter Leaf", "item": "https://james.tyl.ee/the-bitter-leaf"}
+        ]
+    }
+    </script>
+</head>
+
+<body class="bitter-leaf-page">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div id="privacy-popup" class="privacy-popup hidden">
+        <div class="privacy-popup-content">
+            <button id="privacy-close" class="privacy-popup-close" aria-label="Close privacy popup">×</button>
+            <h3>Privacy & Cookies</h3>
+            <p>We use Google Analytics and other tools to understand how you use this site. By continuing, you agree to
+                our <a href="/privacy-policy" target="_blank">Privacy Policy</a> and cookie usage.</p>
+            <div class="privacy-popup-buttons">
+                <button id="privacy-accept" class="privacy-btn-accept">Accept</button>
+                <a href="/privacy-policy" target="_blank" class="privacy-btn-learn">Read Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <header id="top">
+        <nav class="nav-inner" aria-label="Primary navigation">
+            <a href="/" class="nav-logo">James <span>Tylee</span></a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links" role="list">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/writing">Writing</a></li>
+                <li><a href="book.html">Books</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/#hobbies">Deep Thoughts</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="bl-hero">
+            <div class="bl-hero-inner">
+                <nav aria-label="Breadcrumb" class="bl-breadcrumb">
+                    <ol style="list-style:none;padding:0;display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
+                        <li><a href="book.html">Books</a></li>
+                        <li aria-hidden="true">/</li>
+                        <li aria-current="page">The Bitter Leaf</li>
+                    </ol>
+                </nav>
+                <div class="bl-hero-grid">
+                    <div class="bl-cover-wrap">
+                        <img src="/images/books/the-bitter-leaf-cover.jpg"
+                            alt="Cover art for The Bitter Leaf by James Tylee">
+                    </div>
+                    <div class="bl-hero-copy">
+                        <h1>The Bitter Leaf</h1>
+                        <p class="subtitle">A literary novel set in rural Quảng Nam after the Đổi Mới reforms.</p>
+                        <p style="font-size: 0.88rem; color: rgba(255,255,255,0.68); margin-bottom: 1rem;"><time
+                                datetime="2026-05-30">Page published: May 30, 2026</time></p>
+                        <p class="summary">When Mai leaves her family's farm for a career in Hanoi, she tells herself
+                            it is ambition. Years later, a telegram pulls her home to a father quietly dying among the
+                            bitter leaf trees, a brother slipping into the crop they grow, and an official who sees the
+                            farm as land before he sees it as inheritance.</p>
+                        <div class="bl-meta-row">
+                            <span class="bl-pill">Literary fiction</span>
+                            <span class="bl-pill">Quảng Nam, 1993-1994</span>
+                            <span class="bl-pill">Family, land, silence, memory</span>
+                        </div>
+                        <div class="bl-actions">
+                            <a href="book.html" class="bl-button primary"><i class="fas fa-book-open"
+                                    aria-hidden="true"></i> Back to books</a>
+                            <a href="the-bitter-leaf.md" class="bl-button secondary"><i class="fas fa-file-lines"
+                                    aria-hidden="true"></i> Markdown companion</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bl-main">
+            <section class="bl-section">
+                <p class="section-label">Story Summary</p>
+                <h2>What the novel carries</h2>
+                <p>What Mai finds when she comes back is a farm on the edge of losing everything. Her father, Hùng, is
+                    quietly dying among the rows of bitter leaf trees he has tended for thirty years. Her brother
+                    Tuấn is disappearing into the very crop they grow. And a district official with old debts and new
+                    ambitions has set his sights on their land, forcing long-buried truths back into the light.</p>
+                <p><em>The Bitter Leaf</em> is a novel about what we inherit: land, silence, and the slow weight of
+                    what was done before we were old enough to choose. It asks what it costs to stay, what it costs to
+                    leave, and whether roots can still hold when the soil shifts beneath them.</p>
+            </section>
+
+            <div class="bl-quote">
+                <blockquote>"What is grown in love is not easily uprooted."</blockquote>
+                <cite>- Opening epigraph, <em>The Bitter Leaf</em></cite>
+            </div>
+
+            <section class="bl-section">
+                <p class="section-label">Story Engines</p>
+                <h2>Four pressures shaping the page</h2>
+                <div class="bl-story-grid">
+                    <article class="bl-story-card">
+                        <h3>Return home under pressure</h3>
+                        <p>Mai's career in Hanoi gave her distance. Her father's illness removes the luxury of waiting
+                            for a cleaner moment to return.</p>
+                    </article>
+                    <article class="bl-story-card">
+                        <h3>Land as inheritance and evidence</h3>
+                        <p>The family farm is livelihood, memory, and leverage all at once, which makes every offer
+                            from the district feel like a demand.</p>
+                    </article>
+                    <article class="bl-story-card">
+                        <h3>A brother at risk</h3>
+                        <p>Tuấn's dependency plot turns the novel's larger ideas into bodily stakes and gives the book
+                            its most intimate portrait of harm.</p>
+                    </article>
+                    <article class="bl-story-card">
+                        <h3>Buried wartime truth</h3>
+                        <p>A hidden record links present-day pressure on the farm to a moral debt that never stopped
+                            shaping the family.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="bl-section">
+                <p class="section-label">Reader Signal</p>
+                <h2>Who this page is for</h2>
+                <div class="bl-signal-grid">
+                    <article class="bl-signal-card">
+                        <h3>Place-rooted literary fiction</h3>
+                        <p>This book is for readers who want land, labor, and local knowledge to be load-bearing rather
+                            than decorative.</p>
+                    </article>
+                    <article class="bl-signal-card">
+                        <h3>Family tension without melodrama</h3>
+                        <p>The strongest scenes are built on interruption, deflection, and partial confession instead of
+                            easy resolution.</p>
+                    </article>
+                    <article class="bl-signal-card">
+                        <h3>Vietnam after reform, not as backdrop</h3>
+                        <p>The years after Đổi Mới are not scenery here. Policy change, district power, and economic
+                            pressure shape the family's decisions at every level.</p>
+                    </article>
+                    <article class="bl-signal-card">
+                        <h3>Quiet moral pressure</h3>
+                        <p>The novel is not interested in spectacle. It is interested in the cost of staying human when
+                            the ground beneath the household starts negotiating back.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="bl-excerpt">
+                <p class="section-label">From The Opening</p>
+                <h2>An early glimpse</h2>
+                <p>Before the sun came up, Hùng was already among his trees.</p>
+                <p>This had been true for thirty years, first with rice and cassava, and for the last fourteen with
+                    the bitter leaf, and the habit had by now moved past choice into something closer to physiology. He
+                    woke in the dark the way the trees grew toward the light: not because of any decision, but because
+                    the orientation was built into him and could not be altered without altering the thing itself.</p>
+                <p>He stood in the dark among his trees and breathed, and thought about his daughter, who was coming
+                    home that day. He had not seen Mai in fourteen months. He would try. That was all he could offer:
+                    the effort of trying.</p>
+            </section>
+        </section>
+    </main>
+
+    <footer class="bl-footer">
+        <p>Designed &amp; built by <span>James Tylee</span> · 2026</p>
+        <p class="footer-links"><a href="/writing">Writing</a> · <a href="book.html">Books</a> · <a
+                href="digital-assets-revolution.html">The Digital Assets Revolution</a> · <a
+                href="/privacy-policy">Privacy Policy</a> · <a href="/terms-of-service">Terms of Service</a> · <a
+                href="/">Back to Home</a></p>
+        <p class="footer-links"><a href="the-bitter-leaf.md">The Bitter Leaf (Markdown)</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
