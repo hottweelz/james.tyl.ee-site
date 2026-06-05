@@ -1007,3 +1007,70 @@ Next recommended steps:
 
 Notes for next agent:
 - Specialist output is recorded above. Resume from the NEXT_STEP suggestion or re-dispatch via `homeboss chain`.
+
+### 2026-06-05 09:03 EDT — Codex
+
+Task:
+- Update the Amazon pre-order link for `The Bitter Leaf` to the live Amazon order link: `https://amzn.to/4fnjMTw`.
+
+Selected agent team:
+- Book Launch Coordinator: kept Bitter Leaf purchase language aligned with the live order state.
+- Minimal Change Engineer: limited the patch to the static site and machine-readable surfaces that reference the Bitter Leaf Amazon link.
+
+Changes made:
+- Replaced the old Bitter Leaf Amazon detail URL with `https://amzn.to/4fnjMTw` across the title page, books hub, homepage CTA, markdown companions, and LLM discovery text.
+- Updated Bitter Leaf copy from pre-order language to order/available-now language.
+- Updated Bitter Leaf structured data availability from `PreOrder` to `InStock`.
+- Refreshed relevant `dateModified` and sitemap `lastmod` values to `2026-06-05`.
+
+Files touched:
+- `the-bitter-leaf.html`
+- `the-bitter-leaf.md`
+- `book.html`
+- `book.md`
+- `index.html`
+- `about.md`
+- `llms.txt`
+- `sitemap.xml`
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+pwd && ls -la && find . -maxdepth 3 -type f \( -name 'MEMORY.md' -o -name 'CHANGELOG_AI.md' -o -path './.ai/rules/*' -o -path './.ai/agents/*' \) | sort
+git status --short --branch
+rg -n "Bitter Leaf|amazon|amzn|pre-order|preorder|order" .
+sed -n '1,220p' AGENTS.md
+tail -n 180 CHANGELOG_AI.md
+sed -n '1,220p' .ai/rules/agent-team-selection.md
+sed -n '1,220p' .ai/rules/ai-handoff.md
+sed -n '1,180p' .ai/agents/marketing-book-launch-coordinator.md
+sed -n '1,180p' .ai/agents/engineering-minimal-change-engineer.md
+rg -n "B0H3G2QPKT|pre-order|Pre-order|available for pre-order|Amazon pre-order|amzn" the-bitter-leaf.html the-bitter-leaf.md book.html book.md index.html about.md llms.txt sitemap.xml README.md
+python3 -m py_compile /dev/null
+git diff --check -- the-bitter-leaf.html the-bitter-leaf.md book.html book.md index.html about.md llms.txt sitemap.xml
+python3 -c 'from pathlib import Path; from html.parser import HTMLParser; import xml.etree.ElementTree as ET; files=["the-bitter-leaf.html","book.html","index.html"]; [HTMLParser().feed(Path(f).read_text()) for f in files]; ET.parse("sitemap.xml"); targets=["the-bitter-leaf.html","the-bitter-leaf.md","book.html","book.md","index.html","about.md","llms.txt"]; old="https://www.amazon.com/dp/B0H3G2QPKT"; bad=[f for f in targets if old in Path(f).read_text()]; assert not bad, bad; assert "https://amzn.to/4fnjMTw" in Path("the-bitter-leaf.html").read_text(); assert "https://schema.org/InStock" in Path("the-bitter-leaf.html").read_text(); print("HTML parsed, sitemap parsed, Bitter Leaf order link assertions passed.")'
+git diff --stat -- the-bitter-leaf.html the-bitter-leaf.md book.html book.md index.html about.md llms.txt sitemap.xml CHANGELOG_AI.md
+git diff -- the-bitter-leaf.html the-bitter-leaf.md book.html book.md index.html about.md llms.txt sitemap.xml
+date '+%Y-%m-%d %H:%M %Z'
+```
+
+Results:
+- `git diff --check` passed.
+- HTML parsing, sitemap XML parsing, old-URL absence checks, new-order-link checks, and `InStock` structured-data checks passed.
+- The `python3 -m py_compile /dev/null` command failed because it attempted to write `__pycache__` under `/dev`; it was replaced with the targeted static validation command above.
+
+Decisions made:
+- Treated the user's "live Amazon Order link" wording as both a URL update and a purchase-state copy update for Bitter Leaf.
+- Left unrelated Digital Assets pre-order copy unchanged.
+- Did not edit historical audit/report files because they are not current public site surfaces.
+- MEMORY.md update: not needed.
+
+Known issues:
+- Unrelated untracked local files still exist: `GEMINI.md` and `logos/tsm-logo_sm.png`.
+
+Next recommended steps:
+- Commit and deploy this static-site update when ready.
+
+Notes for next agent:
+- If additional public pages are added later, search for the old Bitter Leaf detail URL `https://www.amazon.com/dp/B0H3G2QPKT` before release and prefer the live order short link `https://amzn.to/4fnjMTw`.

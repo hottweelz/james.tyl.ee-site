@@ -1,9 +1,9 @@
 ---
 title: Books | James Tylee
-description: Books by James Tylee, including The Digital Assets Revolution and The Bitter Leaf, now available for pre-order on Amazon.
+description: Books by James Tylee, including The Digital Assets Revolution and The Bitter Leaf, now available on Amazon.
 url: https://james.tyl.ee/book
 datePublished: 2026-05-30
-dateModified: 2026-05-30
+dateModified: 2026-06-05
 author: James Tylee
 authorUrl: https://james.tyl.ee
 schema: CollectionPage
@@ -28,12 +28,12 @@ James Tylee combines three decades on Wall Street with disability-informed syste
 ### The Bitter Leaf
 
 **Type:** Literary novel
-**Status:** Available for pre-order
+**Status:** Available now
 **Page:** https://james.tyl.ee/the-bitter-leaf
-**Amazon pre-order:** https://www.amazon.com/dp/B0H3G2QPKT
+**Amazon order:** https://amzn.to/4fnjMTw
 **Markdown:** https://james.tyl.ee/the-bitter-leaf.md
 
-When Mai returns from Hanoi to rural Quảng Nam, she finds her father dying, her brother slipping, and a district official pressing on the family farm. *The Bitter Leaf* is a story about inheritance, silence, land pressure, and what it costs to stay when the soil itself becomes contested. It is available for pre-order now on Amazon.
+When Mai returns from Hanoi to rural Quảng Nam, she finds her father dying, her brother slipping, and a district official pressing on the family farm. *The Bitter Leaf* is a story about inheritance, silence, land pressure, and what it costs to stay when the soil itself becomes contested. It is available now on Amazon.
 
 ## Shared Throughline
 

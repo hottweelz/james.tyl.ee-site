@@ -12,7 +12,7 @@
 - [Books (Markdown)](https://james.tyl.ee/book.md): Machine-readable companion file for the books hub.
 - [The Digital Assets Revolution](https://james.tyl.ee/digital-assets-revolution): James Tylee's upcoming fintech and blockchain book about accessibility, infrastructure, and the future of money.
 - [The Digital Assets Revolution (Markdown)](https://james.tyl.ee/digital-assets-revolution.md): Machine-readable companion file for The Digital Assets Revolution page.
-- [The Bitter Leaf](https://james.tyl.ee/the-bitter-leaf): Literary novel set in rural Quảng Nam about land, silence, inheritance, and buried truth. Available for pre-order on Amazon.
+- [The Bitter Leaf](https://james.tyl.ee/the-bitter-leaf): Literary novel set in rural Quảng Nam about land, silence, inheritance, and buried truth. Available now on Amazon.
 - [The Bitter Leaf (Markdown)](https://james.tyl.ee/the-bitter-leaf.md): Machine-readable companion file for The Bitter Leaf page.
 - [Advisory Services](https://james.tyl.ee/services): Advisory services landing page with HTML-readable service descriptions and structured data.
 - [Privacy Policy](https://james.tyl.ee/privacy-policy): GDPR-compliant privacy and cookie policy for james.tyl.ee.
@@ -26,7 +26,7 @@
 - [Team Blockchain on GitHub](https://github.com/hottweelz/TeamBlockchain): Open-source blockchain education, developer resources, and protocol documentation.
 - [james.tyl.ee site source on GitHub](https://github.com/hottweelz/james.tyl.ee-site): Public source repository for james.tyl.ee — contains all companion .md files, structured content, and site assets for James Tylee's personal brand site.
 - [Amazon Author Profile](https://www.amazon.com/stores/author/B08LXRDL8N): James Tylee's author page on Amazon.
-- [The Bitter Leaf Amazon Pre-order](https://www.amazon.com/dp/B0H3G2QPKT): Kindle Store detail page for pre-ordering The Bitter Leaf.
+- [The Bitter Leaf Amazon Order](https://amzn.to/4fnjMTw): Amazon order page for The Bitter Leaf.
 - [LinkedIn](https://www.linkedin.com/in/jtylee): Professional profile and industry commentary.
 - [Tylee Smart Markets](https://tsm.tyl.ee): Forthcoming financial markets advisory platform (coming soon).
 - [Crunchbase Profile](https://www.crunchbase.com/person/james-tylee): James Tylee's professional profile on Crunchbase — fintech strategist, blockchain expert, and founder.
