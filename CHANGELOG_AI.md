@@ -1074,3 +1074,65 @@ Next recommended steps:
 
 Notes for next agent:
 - If additional public pages are added later, search for the old Bitter Leaf detail URL `https://www.amazon.com/dp/B0H3G2QPKT` before release and prefer the live order short link `https://amzn.to/4fnjMTw`.
+
+### 2026-06-05 09:07 EDT — Codex
+
+Task:
+- Commit and push the completed Bitter Leaf Amazon order-link update to GitHub.
+
+Selected agent team:
+- Git Workflow Master: committed only the intended files and pushed `main`.
+- Reality Checker: verified remote parity after the push instead of relying on push output alone.
+
+Changes made:
+- Committed the Bitter Leaf order-link update as `5fc63af fix: update Bitter Leaf Amazon order link`.
+- Pushed `main` to `origin`.
+- Added this handoff entry so the push task is recorded in the shared AI ledger.
+
+Files touched:
+- `CHANGELOG_AI.md`
+
+Commands/tests run:
+
+```bash
+git status --short --branch
+tail -n 120 CHANGELOG_AI.md
+sed -n '1,160p' .ai/rules/agent-team-selection.md
+sed -n '1,160p' .ai/rules/ai-handoff.md
+rg -n "Branch parity|git status|origin/main|push" /Users/jamestylee/.codex/memories/MEMORY.md
+sed -n '1,180p' .ai/agents/engineering-git-workflow-master.md
+sed -n '1,160p' .ai/agents/testing-reality-checker.md
+git diff --check -- CHANGELOG_AI.md about.md book.html book.md index.html llms.txt sitemap.xml the-bitter-leaf.html the-bitter-leaf.md
+python3 -c 'from pathlib import Path; from html.parser import HTMLParser; import xml.etree.ElementTree as ET; files=["the-bitter-leaf.html","book.html","index.html"]; [HTMLParser().feed(Path(f).read_text()) for f in files]; ET.parse("sitemap.xml"); targets=["the-bitter-leaf.html","the-bitter-leaf.md","book.html","book.md","index.html","about.md","llms.txt"]; old="https://www.amazon.com/dp/B0H3G2QPKT"; bad=[f for f in targets if old in Path(f).read_text()]; assert not bad, bad; assert "https://amzn.to/4fnjMTw" in Path("the-bitter-leaf.html").read_text(); assert "https://schema.org/InStock" in Path("the-bitter-leaf.html").read_text(); print("HTML parsed, sitemap parsed, Bitter Leaf order link assertions passed.")'
+git rev-list --left-right --count HEAD...origin/main
+git fetch origin
+git diff --name-only
+git add CHANGELOG_AI.md about.md book.html book.md index.html llms.txt sitemap.xml the-bitter-leaf.html the-bitter-leaf.md
+git diff --cached --stat
+git commit -m "fix: update Bitter Leaf Amazon order link"
+git push origin main
+git fetch origin
+git rev-list --left-right --count HEAD...origin/main
+git status --short --branch
+git log --oneline -3
+date '+%Y-%m-%d %H:%M %Z'
+```
+
+Results:
+- Content commit `5fc63af` was pushed to `origin/main`.
+- Post-push fetch and parity check returned `0 0`.
+- `git status --short --branch` after the content push showed `main...origin/main` with only unrelated untracked files remaining.
+
+Decisions made:
+- Left unrelated untracked files `GEMINI.md` and `logos/tsm-logo_sm.png` out of the commit and push.
+- Used a second ledger-only commit for this handoff so the push task itself is captured in `CHANGELOG_AI.md`.
+- MEMORY.md update: not needed.
+
+Known issues:
+- Local worktree still has unrelated untracked files: `GEMINI.md` and `logos/tsm-logo_sm.png`.
+
+Next recommended steps:
+- none
+
+Notes for next agent:
+- After this handoff commit is pushed, verify `git rev-list --left-right --count HEAD...origin/main` and report branch parity separately from the two unrelated untracked files.
